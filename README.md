@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.porsche.com/netherlands/nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Detailpagina van de Porsche Taycan
   <img src="readme-images/ss-porsche-pagina1.png" width="375px" alt="detailpagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Pagina om Porsche modellen te vergelijken 
   <img src="readme-images/ss-porsche-pagina2.png" width="375px" alt="vergelijkings pagina">
  
 </details>
