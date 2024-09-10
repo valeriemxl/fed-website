@@ -24,10 +24,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Je focus:
   Responsive
  
-</details>
-
-
-
+</detail>
 
 
 ## Je website
@@ -40,11 +37,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Detailpagina van de Porsche Taycan
-  <img src="readme-images/ss-porsche-pagina1.png" width="375px" alt="detailpagina">
+  https://www.porsche.com/netherlands/nl/models/taycan/taycan-models/taycan-turbo-gt-wp/
+  <img src="readme-images/ss-porsche-pagina1.png" width="375px" alt="Detailpagina van de Porsche Taycan">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Pagina om Porsche modellen te vergelijken 
-  <img src="readme-images/ss-porsche-pagina2.png" width="375px" alt="vergelijkings pagina">
+  Pagina om Porsche modellen te vergelijken
+  https://www.porsche.com/netherlands/nl/models/?compare=Y1AFP1
+  <img src="readme-images/ss-porsche-pagina2.png" width="375px" alt="Pagina om Porsche modellen te vergelijken">
  
 </details>
 
@@ -57,6 +56,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Ik snap serieus helemaal niks van de screenreader
+  - Ik weet niet hoe ik er doorheen moet navigeren
+  - Het gaat allemaal super snel
+  - Er staan (geloof ik?) erg veel links/CTA buttons die geen goede beschrijving hebben
 
 </details>
 
@@ -67,8 +70,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### de hele pagina (1): 
+  Detailpagina van de Porsche Taycan
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de detailpagina van de Porsche Taycan">
+
+  ### de hele pagina (1): 
+  Pagina om Porsche modellen te vergelijken
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de pagina om Porsche modellen te vergelijken">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
