@@ -79,9 +79,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de pagina om Porsche modellen te vergelijken">
 
   ### dynamisch deel (bijv menu): 
+  Hamburgermenu
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van het hamburgermenu">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
+  Filter
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van filter">
 
 </details>
