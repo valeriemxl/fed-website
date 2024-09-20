@@ -53,6 +53,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
+  Gebruik https://www.a11yproject.com/checklist/
   Lijst met je bevindingen die in de test naar voren kwamen:
   - Ik snap serieus helemaal niks van de screenreader
   - Ik weet niet hoe ik er doorheen moet navigeren
@@ -112,10 +113,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - sectionns beginnen met h2's (kopjes aanpassen in mijn HTML)
+  - sections mogen (probeer wel semantische HTML te gebruiken)
+  - nth of child proberen te vermijden
+  - Is het echt een button of een link?
 
 </details>
 
@@ -129,7 +130,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik Ben bang dat ik misschien toch een te moeilijke website heb gekozen
 
 
   ### Agenda voor meeting
@@ -141,6 +142,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+  Eigen vragen:
+  1. Hoe kom ik aan het juiste font?
+  2. Zijn mijn sections zo goed ingedeeld?
+  3. Gebruik ik id's op de goede manier?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
