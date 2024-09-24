@@ -29,7 +29,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -40,6 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   <img src="readme-images/modellen-vergelijken-volledig.png" width="375px" alt="Pagina om Porsche modellen te vergelijken (https://www.porsche.com/netherlands/nl/models/?compare=Y1AFP1)">
+
 </details>
 
 
@@ -51,11 +52,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Gebruik https://www.a11yproject.com/checklist/
-  Lijst met je bevindingen die in de test naar voren kwamen:
-  - Ik snap serieus helemaal niks van de screenreader
-  - Ik weet niet hoe ik er doorheen moet navigeren
-  - Het gaat allemaal super snel
-  - Er staan (geloof ik?) erg veel links/CTA buttons die geen goede beschrijving hebben
+  Lijst met je bevindingen die in de test naar voren kwamen: de website van Porsche voldoet niet volledig aan de A11Y Project Checklist
+  - Er zijn enkele toegankelijkheidsmaatregelen aanwezig, zoals alternatieve teksten voor afbeeldingen en voldoende kleurcontrast
+  - Hoewel sommige afbeeldingen alt-teksten hebben, is er geen uitgebreide beschrijving voor complexe visuele elementen zoals grafieken of diagrammen
+  - Er ontbreken belangrijke elementen zoals correcte semantische HTML, toetsenbordnavigatie, en focusstaten voor interactieve elementen
+  - Interactieve elementen zoals knoppen of links hebben dus geen duidelijke visuele focusstatus, waardoor toetsenbordnavigatie moeilijker wordt
+  - De hiërarchie van koppen (zoals h1, h2, etc.) wordt niet altijd goed gebruikt, wat moeilijk is voor schermlezers en de navigatie belemmert
+  - Gebruikers kunnen niet altijd controle uitoefenen op animaties of automatische inhoud, wat afleidend kan zijn voor bepaalde gebruikersgroepen​
 
 </details>
 
@@ -70,7 +73,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Detailpagina van de Porsche Taycan
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de detailpagina van de Porsche Taycan">
 
-  ### de hele pagina (1): 
+  ### de hele pagina (2): 
   Pagina om Porsche modellen te vergelijken
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de pagina om Porsche modellen te vergelijken">
 
