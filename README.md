@@ -37,12 +37,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Detailpagina van de Porsche Taycan
-  <img src="readme-images/ss-porsche-pagina1.png" width="375px" alt="Detailpagina van de Porsche Taycan (https://www.porsche.com/netherlands/nl/models/taycan/taycan-models/taycan-turbo-gt-wp/)">
+  <img src="readme-images/detailpagina-taycan-volledig.png" width="375px" alt="Detailpagina van de Porsche Taycan (https://www.porsche.com/netherlands/nl/models/taycan/taycan-models/taycan-turbo-gt-wp/)">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Pagina om Porsche modellen te vergelijken
-  <img src="readme-images/ss-porsche-pagina2.png" width="375px" alt="Pagina om Porsche modellen te vergelijken (https://www.porsche.com/netherlands/nl/models/?compare=Y1AFP1)">
- 
+  <img src="readme-images/modellen-vergelijken-volledig.png" width="375px" alt="Pagina om Porsche modellen te vergelijken (https://www.porsche.com/netherlands/nl/models/?compare=Y1AFP1)">
 </details>
 
 
@@ -150,10 +149,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - "hoofd" sections classes geven
+  - "onder" sections aanroepen met bijv nth of type/child
+  - section in section mag
+  - class namen mogen vaker op een pagina genoemt worden,  id namen niet
+  - dus bijv 2 afbeeldingen in 2 verschillende sections zijn hetzelfde gestijlt mag je ze dezelfde class naam geven
 
 </details>
 

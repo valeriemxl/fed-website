@@ -16,7 +16,6 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
 	--color-text: #111;
 	--color-background: #eee;
 }
@@ -29,8 +28,33 @@
 /* JOUW STYLING */
 /****************/
 
-/* Algemene styling van de header */
-/* Header styling blijft hetzelfde */
+@font-face {
+	font-family: PorscheRegular;
+	font-style: normal;
+	font-weight: normal;
+	src: url('/Fonts/porsche-next-latin-regular.b8f1c20.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: PorscheBold;
+	font-style: normal;
+	font-weight: 800;
+	src: url('/Fonts/porsche-next-latin-bold.0fbdc6d.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: PorscheSemiBold;
+	font-style: normal;
+	font-weight: 600;
+	src: url('/Fonts/porsche-next-latin-semi-bold.b5f6fca.woff2') format('woff2');
+}
+
+
+
+
+
+/* HEADER */
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -82,6 +106,7 @@ header {
 
 /* Menu links */
 #nav-links {
+	font-family: PorscheRegular;
 	list-style-type: none;
 	padding: 0 27px;
 	margin: 73px 0 0 0;
@@ -101,25 +126,420 @@ nav ul li a {
 	display: block;
 }
 
-#porsche-logo {
+.porsche-logo {
 	max-width: 30px;
 	max-height: 40px;
 }
 
-#profile-icon {
+.profile-icon {
 	width: 24px;
 	height: 24px;
 	filter: invert(1);
 }
 
+
+
+
+
 /* MAIN */
 
-main img {
-	height: 20%;
-	width: 20%;
+h1,
+h2,
+h3,
+p,
+button,
+a {
+	font-family: PorscheRegular;
 }
 
-#uitvoeringen-weissach-model {
-	padding: 17px 0 0 0;
+
+
+.taycan-auto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 8% 0 8%;
 }
 
+.taycan-auto img {
+	width: 100%;
+	height: auto;
+	margin: 5% 0 0 0;
+}
+
+
+
+.uitvoeringen-weissach-model {
+	padding: 17px 0 50px 0;
+	margin: 0 8% 0 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.uitvoeringen-weissach-model section:nth-of-type(1) {
+	padding: 4px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.uitvoeringen-weissach-model section:nth-of-type(1) a {
+	margin: 0 5px 0 5px;
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.uitvoeringen-weissach-model section:nth-of-type(1) a.active {
+	text-decoration: underline;
+}
+
+
+.uitvoeringen-weissach-model h1 {
+	font-size: 31px;
+	margin: 0px;
+}
+
+.uitvoeringen-weissach-model section:nth-of-type(2) {
+	padding: 10px 0 10px 0;
+}
+
+.uitvoeringen-weissach-model section:nth-of-type(2) p {
+	font-size: 16px;
+	margin: 10px;
+}
+
+
+
+.uitvoeringen-weissach-model section:nth-of-type(3) {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.uitvoeringen-weissach-model section:nth-of-type(3) a {
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	padding: 13px 26px;
+	border: 2px solid black;
+	border-radius: 3px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	margin: 0 0 10px 0;
+}
+
+.uitvoeringen-weissach-model section:nth-of-type(3) a.active {
+	color: #eee;
+	background-color: #111;
+}
+
+.uitvoeringen-weissach-model section:nth-of-type(3) p {
+	font-size: 13px;
+	color: #6B6D70;
+}
+
+
+
+.tech-specs {
+	margin: 0 8% 0 8%;
+	padding: 17px 0 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.tech-specs h2 {
+	font-size: 35px;
+	margin: 0%;
+}
+
+.tech-specs p {
+	font-size: 16px;
+	color: #6B6D70;
+	margin: 0 0 34px 0;
+}
+
+.tech-specs a {
+	font-size: 16px;
+	padding: 13px 26px;
+	border: 2px solid black;
+	border-radius: 3px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	margin: 0 0 34px 0;
+}
+
+.tech-specs img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+.overfeel {
+	margin: 0 8% 0 8%;
+	padding: 50px 0 87px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+}
+
+.overfeel::before {
+	content: '';
+	position: absolute;
+	top: 20%;
+	width: 116%;
+	height: 60%;
+	background-color: #111;
+	z-index: -1;
+}
+
+.overfeel img:nth-of-type(1) {
+	width: 50%;
+	height: auto;
+	padding: 0 0 34px 0;
+}
+
+.overfeel img:nth-of-type(2) {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	margin: 0 0 30px 0;
+}
+
+.overfeel section:nth-of-type(1) {
+	color: #eee;
+	text-align: left;
+	margin: 0 0 48px 0;
+}
+
+.overfeel h2 {
+	font-size: 31px;
+	margin: 0;
+}
+
+.overfeel p {
+	font-size: 18px;
+	margin: 17px 0 0 0;
+}
+
+.overfeel img:nth-of-type(3) {
+	width: 75%;
+	height: auto;
+	border-radius: 10px;
+	align-self: flex-start;
+}
+
+.overfeel img:nth-of-type(4) {
+	width: 75%;
+	height: auto;
+	border-radius: 10px;
+	align-self: flex-end;
+}
+
+
+
+.hoogtepunten {
+	margin: 0 8% 0 8%;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; */
+}
+
+.hoogtepunten h2 {
+	text-align: center;
+}
+
+.hoogtepunten section {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.hoogtepunten section img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 10px;
+}
+
+.hoogtepunten section h3,
+.hoogtepunten section p {
+	position: absolute;
+	color: white;
+	text-align: left;
+	padding: 34px 17px 1px 17px;
+	/* border-radius: 10px; */
+	/* width: 100%;
+    left: 50%;
+	transform: translateX(-50%); */
+}
+
+.hoogtepunten section:nth-of-type(1) h3 {
+	font-size: 23px;
+	bottom: 20%;
+	margin: 0 0 8px 0;
+}
+
+
+.hoogtepunten section:nth-of-type(2) h3 {
+	font-size: 23px;
+	bottom: 25%;
+	margin: 0 0 8px 0;
+}
+
+.hoogtepunten section p {
+	font-size: 16px;
+	bottom: 0%;
+}
+
+
+
+
+.prestaties {
+	margin: 0 8% 0 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.prestaties section:nth-of-type(1) {
+	background-color: #111;
+}
+
+.prestaties img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+.macan-topsnelheid {
+	margin: 0 8% 0 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.macan-topsnelheid img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+	background-color: #111;
+	color: #eee;
+	padding: 60px 0 120px 0;
+}
+
+footer section {
+	margin: 0 8% 0 8%;
+}
+
+footer h2 {
+	font-size: 18px;
+}
+
+footer section:nth-of-type(1) {
+	padding: 0 0 36px 0;
+}
+
+footer section:nth-of-type(1) img {
+	width: 8%;
+	height: auto;
+	margin: 0 8px 0 0;
+}
+
+footer section:nth-of-type(1) a {
+	padding: 0 0 0 24px;
+	color: #eee;
+}
+
+.nieuws-contact {
+	padding: 0 0 36px 0;
+}
+
+.nieuws-contact h2 {
+	margin: 0;
+}
+
+.nieuws-contact p {
+	margin: 8px 0;
+}
+
+.nieuws-contact a {
+	color: #111;
+	background-color: #eee;
+	padding: 13px 26px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 3px;
+	display: block;
+	width: 100%;
+}
+
+/* sociale media */
+footer section:nth-of-type(4) {
+	padding: 0 0 36px 0;
+}
+
+footer section:nth-of-type(4) p {
+	margin: 8px 0;
+}
+
+footer section:nth-of-type(4) a img {
+	background-color: #eee;
+	border-radius: 3px;
+	width: 50px;
+	height: auto;
+	padding: 15px;
+	margin: 5px 10px 0 0;
+}
+
+/* over porsche */
+footer section:nth-of-type(5) {
+	padding: 0 0 96px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+footer section:nth-of-type(5) a {
+	text-decoration: none;
+	color: #eee;
+	padding: 7px 0 0 0;
+}
+
+/* copyright */
+footer section:nth-of-type(6) {
+	margin: 16px 8%;
+}
+
+footer section:nth-of-type(7) img {
+	width: 45%;
+	height: auto;
+	margin: 0 8% 0 8%;
+	padding: 96px 0 0 0;
+	filter: invert(1);
+	display: block;
+	margin: 0 auto;
+}
