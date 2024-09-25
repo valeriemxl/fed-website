@@ -1,0 +1,262 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	--color-text: #000000;
+	--color-background: #eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+@font-face {
+	font-family: PorscheRegular;
+	font-style: normal;
+	font-weight: normal;
+	src: url('/Fonts/porsche-next-latin-regular.b8f1c20.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: PorscheBold;
+	font-style: normal;
+	font-weight: 800;
+	src: url('/Fonts/porsche-next-latin-bold.0fbdc6d.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: PorscheSemiBold;
+	font-style: normal;
+	font-weight: 600;
+	src: url('/Fonts/porsche-next-latin-semi-bold.b5f6fca.woff2') format('woff2');
+}
+
+
+
+
+
+/* HEADER */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 13px 40px;
+	position: relative;
+	z-index: 100;
+}
+
+/* Hamburger menu */
+#menu-btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	z-index: 110;
+	padding: 0px;
+}
+
+#menu-btn img {
+	width: 24px;
+	height: 24px;
+}
+
+/* Overlay voor het menu, standaard verborgen */
+#menu-overlay {
+	position: fixed;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(255, 255, 255);
+	transition: left 0.3s ease-in-out;
+	z-index: 100;
+}
+
+/* Menu zichtbaar maken als het wordt geopend */
+#menu-overlay.show {
+	left: 0;
+}
+
+/* Menu links */
+#nav-links {
+	font-family: PorscheRegular;
+	list-style-type: none;
+	padding: 0 27px;
+	margin: 73px 0 0 0;
+	text-align: left;
+}
+
+nav ul li {
+	padding: 0 8px;
+	margin: 36px 0;
+}
+
+nav ul li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 24px;
+	/* Grotere tekst voor mobiel */
+	display: block;
+}
+
+.porsche-logo {
+	max-width: 30px;
+	max-height: 40px;
+}
+
+.profile-icon {
+	width: 24px;
+	height: 24px;
+}
+
+
+
+
+/* MAIN */
+
+.titel {
+	padding: 0 29px;
+	background-color: #eff0f1;
+}
+
+.titel h1 {
+	font-family: PorscheSemiBold;
+	font-size: 20px;
+	padding: 20px 0 10px 0;
+	margin: 0;
+
+}
+
+
+
+.vergelijken {
+	padding: 25px 29px;
+}
+
+.vergelijken section:nth-of-type(1) h2 {
+	font-family: PorscheSemiBold;
+	font-size: 24px;
+	margin: 0;
+}
+
+.vergelijken section:nth-of-type(2) {
+	font-family: PorscheRegular;
+	font-size: 16px;
+	margin: 20px 0 0 0;
+}
+
+.vergelijken section:nth-of-type(2) button {
+	font-family: PorscheRegular;
+	font-size: 16px;
+	margin: 0;
+}
+
+
+
+
+
+.modellen {
+	padding: 25px 29px;
+}
+
+.modellen section:nth-of-type(1) h2 {
+	font-family: PorscheSemiBold;
+	font-size: 28px;
+}
+
+.modellen section:nth-of-type(2) {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.card {
+	width: calc(50% - 5px);
+	height: auto;
+	font-family: PorscheRegular;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+}
+
+.card h3 {
+	font-size: 16px;
+	margin: 0;
+}
+
+.card p {
+	width: fit-content;
+	margin: 0;
+}
+
+
+
+
+
+.brandstof {
+	padding: 25px 29px;
+}
+
+
+
+
+
+.meer-over {
+	padding: 25px 29px 30px 29px;
+}
+
+
+
+
+
+.overige-links {
+	padding: 0 29px 25px 29px;
+}
+
+
+
+
+
+footer {
+	padding: 0 29px 70px 29px;
+	background-color: #191f22;
+	color: #ffffff;
+}
+
+footer section:nth-of-type(1) {
+	padding: 20px 0 20px 0;
+}
+
+footer section:nth-of-type(1) h2 {
+	font-family: PorscheSemiBold;
+	font-size: 113%;
+}
+
+footer section:nth-of-type(1) button {
+	font-family: PorscheRegular;
+	font-size: 100%;
+}
+
+footer section:nth-of-type(2) {
+	font-family: PorscheRegular;
+	font-size: 100%;
+}
