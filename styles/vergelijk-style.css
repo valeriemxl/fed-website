@@ -58,6 +58,7 @@
 header {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 13px 40px;
 	position: relative;
 	z-index: 100;
@@ -157,7 +158,6 @@ nav ul li a {
 }
 
 .vergelijken section:nth-of-type(2) {
-	font-family: PorscheRegular;
 	font-size: 16px;
 	margin: 20px 0 0 0;
 }
@@ -165,7 +165,25 @@ nav ul li a {
 .vergelijken section:nth-of-type(2) button {
 	font-family: PorscheRegular;
 	font-size: 16px;
-	margin: 0;
+	margin: 0 10px 0 0;
+}
+
+.vergelijken section:nth-of-type(2) button:first-of-type {
+    width: 100%;
+	padding: 13px 21px 13px 40px;
+	background-color: #313639;
+	border: transparent;
+	color: #ffffff;
+	text-align: left;
+}
+
+.vergelijken section:nth-of-type(2) button:nth-of-type(2),
+.vergelijken section:nth-of-type(2) button:nth-of-type(3) {
+	margin: 10px 10px 0 0;
+	padding: 12px 20px 12px 40px;
+	background-color: transparent;
+	border-width: 1px;
+	text-align: left;
 }
 
 
@@ -216,12 +234,30 @@ nav ul li a {
 	padding: 25px 29px;
 }
 
+.brandstof h2 {
+	font-family: PorscheSemiBold;
+}
 
+.brandstof p {
+	font-family: PorscheRegular;
+}
 
 
 
 .meer-over {
-	padding: 25px 29px 30px 29px;
+	padding: 25px 29px 20px 29px;
+}
+
+.meer-over h2 {
+	font-family: PorscheSemiBold;
+}
+
+.meer-over a {
+	display: flex;
+	color: var(--color-text);
+	text-decoration: none;
+	font-family: PorscheRegular;
+	padding: 0 0 20px 0;
 }
 
 
@@ -230,6 +266,31 @@ nav ul li a {
 
 .overige-links {
 	padding: 0 29px 25px 29px;
+}
+
+.overige-links button {
+	display: flex;
+	border: none;
+	background-color: transparent;
+	font-family: PorscheSemiBold;
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+.overige-links h2 {
+	margin: 20px 0 5px 0;
+	font-size: 18px;
+	font-family: PorscheSemiBold;
+	color: #959899;
+}
+
+.overige-links a img {
+	background-color: #eee;
+	width: 50px;
+	height: auto;
+	padding: 10px;
+	margin: 0 5px 0 0;
+	filter: invert(1);
 }
 
 
@@ -254,6 +315,13 @@ footer section:nth-of-type(1) h2 {
 footer section:nth-of-type(1) button {
 	font-family: PorscheRegular;
 	font-size: 100%;
+	border: none;
+	background-color: #313639;
+	color: var(--color-background);
+	padding: 13px;
+	margin: 10px 50px 0 0;
+	width: 100%;
+	text-align: left;
 }
 
 footer section:nth-of-type(2) {
