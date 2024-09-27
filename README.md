@@ -130,7 +130,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik Ben bang dat ik misschien toch een te moeilijke website heb gekozen
+  Ik ben bang dat ik misschien toch een te moeilijke website heb gekozen
 
 
   ### Agenda voor meeting
