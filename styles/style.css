@@ -17,7 +17,7 @@
 /*********************/
 :root {
 	--color-text: #000000;
-	--color-background: #eee;
+	--color-background: #ffffff;
 }
 
 
@@ -32,21 +32,21 @@
 	font-family: PorscheRegular;
 	font-style: normal;
 	font-weight: normal;
-	src: url('/Fonts/porsche-next-latin-regular.b8f1c20.woff2') format('woff2');
+	src: url('Fonts/porsche-next-latin-regular.b8f1c20.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: PorscheBold;
 	font-style: normal;
 	font-weight: 800;
-	src: url('/Fonts/porsche-next-latin-bold.0fbdc6d.woff2') format('woff2');
+	src: url('Fonts/porsche-next-latin-bold.0fbdc6d.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: PorscheSemiBold;
 	font-style: normal;
 	font-weight: 600;
-	src: url('/Fonts/porsche-next-latin-semi-bold.b5f6fca.woff2') format('woff2');
+	src: url('Fonts/porsche-next-latin-semi-bold.b5f6fca.woff2') format('woff2');
 }
 
 
