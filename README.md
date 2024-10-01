@@ -71,19 +71,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina (1): 
   Detailpagina van de Porsche Taycan
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de detailpagina van de Porsche Taycan">
+  <img src="readme-images/schets-detail.jpg" width="375px" alt="breakdown van de detailpagina van de Porsche Taycan">
 
   ### de hele pagina (2): 
   Pagina om Porsche modellen te vergelijken
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de pagina om Porsche modellen te vergelijken">
+  <img src="readme-images/schets-vergelijken.jpg" width="375px" alt="breakdown van de pagina om Porsche modellen te vergelijken">
 
   ### dynamisch deel (bijv menu): 
   Hamburgermenu
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van het hamburgermenu">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  Filter
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van filter">
+  <img src="readme-images/schets-menu.jpg" width="375px" alt="breakdown van het hamburgermenu">
 
 </details>
 
@@ -249,6 +245,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   4. https://developer.mozilla.org/en-US/docs/Web/CSS/content
   5. https://www.w3schools.com/cssref/pr_gen_content.php
   6. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
-  7. 
+  7. ChatGPT prompt: 
 
 </details>
