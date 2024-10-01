@@ -244,7 +244,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. https://flexboxfroggy.com/#nl
-  2. bron 2
-  3. ...
+  2. https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
+  3. https://www.w3schools.com/howto/howto_css_image_text.asp
+  4. https://developer.mozilla.org/en-US/docs/Web/CSS/content
+  5. https://www.w3schools.com/cssref/pr_gen_content.php
+  6. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
+  7. 
 
 </details>

@@ -7,6 +7,10 @@
 	box-sizing: border-box;
 }
 
+/* * {
+	outline: 1px solid red;
+} */
+
 
 
 
@@ -16,8 +20,16 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	--color-text: #000000;
-	--color-background: #ffffff;
+	--color-text-taycan: #010205;
+	--color-text-vergelijken: #000000;
+	--color-text-white: #FBFCFF;
+	--color-text-small: #6B6D70;
+	--background-color: #FBFCFF;
+	--margin-body: 0 8% 0 8%;
+	--font-size-h1: 7.5vw;
+	--font-size-h2: 8vw;
+	--font-size-h2-small: 6.5vw;
+	--font-size-algemeen: 3.5vw;
 }
 
 
@@ -36,42 +48,49 @@
 }
 
 @font-face {
-	font-family: PorscheBold;
-	font-style: normal;
-	font-weight: 800;
-	src: url('../Fonts/porsche-next-latin-bold.0fbdc6d.woff2') format('woff2');
-}
-
-@font-face {
 	font-family: PorscheSemiBold;
 	font-style: normal;
 	font-weight: 600;
 	src: url('../Fonts/porsche-next-latin-semi-bold.b5f6fca.woff2') format('woff2');
 }
 
+/* @font-face {
+	font-family: PorscheBold;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../Fonts/porsche-next-latin-bold.0fbdc6d.woff2') format('woff2');
+} */
 
 
 
 
-/* HEADER */
+
+/* 
+HEADER
+https://www.w3schools.com/css/css_positioning.asp
+https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2 
+*/
 
 header {
+	margin: var(--margin-body);
+	padding: 4% 0;
+
 	display: flex;
 	justify-content: space-between;
-	padding: 13px 40px;
 	position: relative;
-	z-index: 100;
+	z-index: 1;
 }
 
 /* Hamburger menu */
 #menu-btn {
-	background: none;
+	padding: 0;
 	border: none;
+	background: none;
 	cursor: pointer;
-	z-index: 110;
-	padding: 0px;
+	z-index: 2;
 }
 
+/* (values in px) */
 #menu-btn img {
 	width: 24px;
 	height: 24px;
@@ -84,10 +103,10 @@ header {
 	top: 0;
 	left: -100%;
 	width: 100%;
-	height: 100vh;
-	background-color: rgba(255, 255, 255);
+	height: 100%;
+	background-color: var(--background-color);
 	transition: left 0.3s ease-in-out;
-	z-index: 100;
+	z-index: 3;
 }
 
 /* Menu zichtbaar maken als het wordt geopend */
@@ -95,7 +114,7 @@ header {
 	left: 0;
 }
 
-/* Menu links */
+/* Menu links (values in px) */
 #nav-links {
 	font-family: PorscheRegular;
 	list-style-type: none;
@@ -104,16 +123,17 @@ header {
 	text-align: left;
 }
 
+/* (values in px) */
 nav ul li {
 	padding: 0 8px;
-	margin: 36px 0;
+	margin: 36px 0 0 0;
 }
 
 nav ul li a {
-	color: rgb(0, 0, 0);
+	/* display: block; */
+	color: var(--color-text-taycan);
 	text-decoration: none;
-	font-size: 24px;
-	display: block;
+	font-size: 1.5em;
 }
 
 .porsche-logo {
@@ -129,59 +149,53 @@ nav ul li a {
 
 
 
-
-/* MAIN */
-
-h1,
-h2,
-h3,
-p,
-button,
-a {
-	font-family: PorscheRegular;
-}
-
-
-
-
+/* 
+"HEADER" afbeeldingen
+https://www.w3schools.com/css/css_positioning.asp
+https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2 
+*/
 
 .header-imgs {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 0 8% 0 8%;
+	margin: var(--margin-body)
 }
 
-/* .header-imgs img {
-	width: 100%;
-	height: auto;
-} */
-
-.header-imgs section:nth-of-type(1) img {
+.header-imgs img:nth-of-type(1) {
 	position: absolute;
+	z-index: -3;
 	top: 0;
 	left: 0;
 	width: 100vw;
-	z-index: -1;
 	filter: brightness(50%);
 }
 
-.header-imgs section:nth-of-type(2) img {
+.header-imgs img:nth-of-type(2) {
+	position: absolute;
+	z-index: -2;
+	width: 55%;
 	filter: invert(1);
-	width: 100%;
 }
 
-.header-imgs section:nth-of-type(3) img {
+.header-imgs img:nth-of-type(3) {
+	position: relative;
+	z-index: -1;
+	top: 50px;
 	width: 100%;
+	margin: 0 0 50px 0;
 }
 
 
 
-
+/* 
+Uitvoeringen Weissach Model
+https://flexboxfroggy.com/#nl
+*/
 
 .uitvoeringen-weissach-model {
+	margin: var(--margin-body);
 	padding: 17px 0 50px 0;
-	margin: 0 8% 0 8%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -190,16 +204,17 @@ a {
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(1) {
-	padding: 4px;
-	text-align: center;
-	font-size: 16px;
+	display: flex;
+	flex-direction: row;
+	padding: 4px 0;
+	font-family: PorscheRegular;
+	font-size: var(--font-size-algemeen);
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(1) a {
-	margin: 0 5px 0 5px;
-	display: inline-block;
-	color: rgb(0, 0, 0);
+	color: var(--color-text-taycan);
 	text-decoration: none;
+	padding: 0 1em;
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(1) a.active {
@@ -207,26 +222,28 @@ a {
 }
 
 .uitvoeringen-weissach-model h1 {
-	font-size: 31px;
-	margin: 0px;
+	font-size: var(--font-size-h1);
+	margin: 0;
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(2) {
-	padding: 10px 0 10px 0;
+	padding: 10px 0;
+	font-family: PorscheRegular;
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(2) p {
-	font-size: 16px;
-	margin: 0 9em;
-	border-radius: 3px;
+	font-size: var(--font-size-algemeen);
+	/* margin: 0 603px; */
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(2) p:first-of-type {
-	background-color: #eeeff2;
+	background-color: #EEEFF2;
+	border-radius: 3px;
 	padding: 1px 6px;
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(3) {
+	font-family: PorscheRegular;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -240,21 +257,21 @@ a {
 	display: block;
 	width: 100%;
 	padding: 13px 26px;
-	border: 2px solid black;
+	border: 2px solid var(--color-text-taycan);
 	border-radius: 3px;
-	color: rgb(0, 0, 0);
+	color: var(--color-text-taycan);
 	text-decoration: none;
 	margin: 0 0 10px 0;
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(3) a.active {
-	color: #eee;
-	background-color: #111;
+	color: var(--color-text-white);
+	background-color: var(--color-text-taycan);
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(3) p {
-	font-size: 13px;
-	color: #6B6D70;
+	font-size: var(--font-size-algemeen);
+	color: var(--color-text-small);
 }
 
 
@@ -262,34 +279,35 @@ a {
 
 
 .tech-specs {
-	margin: 0 8% 0 8%;
+	margin: var(--margin-body);
 	padding: 17px 0 50px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	font-family: PorscheRegular;
 	text-align: center;
 }
 
 .tech-specs h2 {
-	font-size: 35px;
-	margin: 0%;
+	font-size: var(--font-size-h2);
+	margin: 0;
 }
 
 .tech-specs p {
-	font-size: 16px;
-	color: #6B6D70;
-	margin: 0 0 34px 0;
+	font-size: var(--font-size-algemeen);
+	color: var(--color-text-small);
+	margin: 0 0 10% 0;
 }
 
 .tech-specs a {
-	font-size: 16px;
+	font-size: var(--font-size-algemeen);
 	padding: 13px 26px;
-	border: 2px solid black;
+	border: 2px solid var(--color-text-taycan);
 	border-radius: 3px;
-	color: rgb(0, 0, 0);
+	color: var(--color-text-taycan);
 	text-decoration: none;
-	margin: 0 0 34px 0;
+	margin: 0 0 10% 0;
 }
 
 .tech-specs img {
@@ -300,25 +318,28 @@ a {
 
 
 
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/content */
 
 .overfeel {
-	margin: 0 8% 0 8%;
+	margin: var(--margin-body);
 	padding: 50px 0 87px;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	position: relative;
+	font-family: PorscheRegular;
+
 }
 
 .overfeel::before {
 	content: '';
 	position: absolute;
-	top: 20%;
+	/* top: 20%; */
 	width: 100vw;
 	height: 60%;
-	background-color: var(--color-text);
+	background-color: var(--color-text-taycan);
 	z-index: -1;
 }
 
@@ -343,7 +364,7 @@ a {
 }
 
 .overfeel h2 {
-	font-size: 31px;
+	font-size: var(--font-size-h2-small);
 	margin: 0;
 }
 
@@ -356,14 +377,17 @@ a {
 	width: 75%;
 	height: auto;
 	border-radius: 10px;
+	display: block;
 	align-self: flex-start;
+	/* margin: 0 0 -11% -13%; */
 }
 
 .overfeel img:nth-of-type(4) {
-	width: 75%;
+	width: 65%;
 	height: auto;
 	border-radius: 10px;
 	align-self: flex-end;
+	/* margin: 0 -8% 0 0; */
 }
 
 
@@ -372,56 +396,63 @@ a {
 
 .hoogtepunten {
 	margin: 0 8% 0 8%;
-	/* display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center; */
 }
 
-.hoogtepunten h2 {
+.hoogtepunten h2:first-child {
+	font-family: PorscheSemiBold;
+	font-size: var(--font-size-h2-small);
 	text-align: center;
 }
 
-.hoogtepunten section {
-	position: relative;
-	margin-bottom: 40px;
+.hoogtepunten-scroll {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
 }
 
-.hoogtepunten section img {
+.hoogtepunten-scroll section {
+	min-width: 100%;
+	position: relative;
+}
+
+.hoogtepunten-scroll img {
 	width: 100%;
 	height: auto;
-	display: block;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
-.hoogtepunten section h3,
-.hoogtepunten section p {
+
+.hoogtepunten-scroll section h2,
+.hoogtepunten-scroll section p {
+	font-family: PorscheRegular;
 	position: absolute;
-	color: white;
-	text-align: left;
-	padding: 34px 17px 1px 17px;
-	/* border-radius: 10px; */
-	/* width: 100%;
-    left: 50%;
-	transform: translateX(-50%); */
+	color: var(--color-text-white);
 }
 
-.hoogtepunten section:nth-of-type(1) h3 {
-	font-size: 23px;
-	bottom: 20%;
-	margin: 0 0 8px 0;
+.hoogtepunten-scroll section:nth-of-type(1) {
+	margin: 0 5% 0 0;
 }
 
-
-.hoogtepunten section:nth-of-type(2) h3 {
-	font-size: 23px;
-	bottom: 25%;
-	margin: 0 0 8px 0;
+.hoogtepunten-scroll section:nth-of-type(1) h2 {
+	bottom: 22%;
+	left: 5%;
+	font-size: var(--font-size-h2-small);
+	margin: 0;
 }
 
-.hoogtepunten section p {
-	font-size: 16px;
-	bottom: 0%;
+.hoogtepunten-scroll section:nth-of-type(2) h2 {
+	bottom: 26%;
+	left: 5%;
+	font-size: var(--font-size-h2-small);
+	margin: 0;
+}
+
+.hoogtepunten-scroll section p {
+	bottom: 5%;
+	left: 5%;
+	width: 90%;
+	font-size: var(--font-size-algemeen);
+	margin: 0;
 }
 
 
@@ -429,6 +460,118 @@ a {
 
 
 .prestaties {
+	margin: 0 8% 0 8%;
+	padding: 25% 0 30% 0;
+	position: relative;
+}
+
+.prestaties::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 75%;
+	background-color: var(--color-text-taycan);
+	z-index: -1;
+}
+
+.prestaties > section:nth-of-type(1) img {
+	width: 100%;
+	height: auto;
+}
+
+.prestaties > section:nth-of-type(2) {
+	text-align: center;
+	color: var(--color-text-white);
+}
+
+.prestaties section:nth-of-type(2) h2 {
+	font-family: PorscheSemiBold;
+	font-size: var(--font-size-h2-small);
+}
+
+.prestaties > section:nth-of-type(2) p {
+	font-family: PorscheRegular;
+	font-size: var(--font-size-algemeen);
+}
+
+.prestaties > section:nth-of-type(3) {
+	padding: 0 0 10% 0;
+}
+
+.prestaties section:nth-of-type(3) button {
+	background: none;
+	color: var(--color-text-taycan);
+	font-size: var(--font-size-algemeen);
+	border: none;
+	text-decoration: underline;
+}
+
+.prestaties-scroll {
+	margin: 0 8%;
+	display: flex;
+	flex-direction: row;
+	overflow-x: auto;
+}
+
+.prestaties-scroll img {
+	width: 100%;
+	height: auto;
+}
+
+.prestaties-scroll section {
+	padding: 5%;
+	min-width: 100%;
+	font-family: PorscheRegular;
+	background-color:rgb(222, 224, 225);
+	border-radius: 15px;
+	align-content: center;
+}
+
+.prestaties-scroll section:nth-of-type(1) {
+	margin: 0 5% 0 0;
+}
+
+.prestaties-scroll section:nth-of-type(1) p:nth-of-type(1),
+.prestaties-scroll section:nth-of-type(1) p:nth-of-type(2),
+.prestaties-scroll section:nth-of-type(1) p:nth-of-type(3),
+.prestaties-scroll section:nth-of-type(1) p:nth-of-type(4) {
+	margin: 0;
+	text-align: center;
+}
+
+.prestaties-scroll section:nth-of-type(1) p:nth-of-type(1),
+.prestaties-scroll section:nth-of-type(1) p:nth-of-type(3) {
+	font-size: var(--font-size-h2-small);
+}
+
+.prestaties-scroll section:nth-of-type(1) p:nth-of-type(2),
+.prestaties-scroll section:nth-of-type(1) p:nth-of-type(4) {
+	font-size: var(--font-size-algemeen);
+	color: var(--color-text-small);
+	
+}
+
+.prestaties-scroll section:nth-of-type(2) p:nth-of-type(1),
+.prestaties-scroll section:nth-of-type(2) p:nth-of-type(2),
+.prestaties-scroll section:nth-of-type(2) p:nth-of-type(3),
+.prestaties-scroll section:nth-of-type(2) p:nth-of-type(4) {
+	margin: 0;
+}
+
+.prestaties-scroll section:nth-of-type(2) p:nth-of-type(1),
+.prestaties-scroll section:nth-of-type(2) p:nth-of-type(2),
+.prestaties-scroll section:nth-of-type(2) p:nth-of-type(3) {
+	text-align: center;
+}
+
+
+.prestaties-scroll section:nth-of-type(2) p:nth-of-type(2){
+	font-size: var(--font-size-h2-small);
+}
+
+
+/* .prestaties {
+	margin: 0 8% 0 8%;
 	padding: 50px 0 87px;
 	display: flex;
 	flex-direction: column;
@@ -441,7 +584,6 @@ a {
 .prestaties::before {
 	content: '';
 	position: absolute;
-	/* top: 20%; */
 	width: 100vw;
 	height: 75%;
 	background-color: var(--color-text);
@@ -457,7 +599,7 @@ a {
 	height: auto;
 }
 
-.prestaties > section:nth-of-type(2) {
+.prestaties>section:nth-of-type(2) {
 	color: var(--color-background);
 }
 
@@ -473,12 +615,12 @@ a {
 }
 
 .scroll-container {
-    display: flex;
-    overflow-x: auto;
+	display: flex;
+	overflow-x: auto;
 }
 
 .scroll-container section {
-    min-width: 80%;
+	min-width: 80%;
 	font-size: 16px;
 	background-color: #eeeff2;
 	padding: 17px;
@@ -492,7 +634,8 @@ a {
 .scroll-container section:nth-of-type(2) img {
 	width: 100%;
 	height: auto;
-}
+} */
+
 
 
 
@@ -500,23 +643,50 @@ a {
 
 .macan-topsnelheid {
 	margin: 0 8% 0 8%;
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
+	text-align: center; */
+}
+
+.macan-topsnelheid section {
+	position: relative;
+	margin-bottom: 20%;
+	font-family: PorscheRegular;
 }
 
 .macan-topsnelheid img {
 	width: 100%;
 	height: auto;
 	border-radius: 10px;
-	z-index: -1;
 }
 
-.macan-topsnelheid p {
-	z-index: -1;
+.macan-topsnelheid section a {
+	padding: 3%;
+	position: absolute;
+	bottom: 5%;
+    left: 5%;
+    color: var(--color-text-taycan);
+    text-decoration: none;
+    text-align: left;
+	background-color: #6b6d705b;
+	border-radius: 10px;
 }
+
+.macan-topsnelheid section a h2, p {
+	margin: 0;
+}
+
+
+.macan-topsnelheid div {
+	position: absolute;
+	top: 5%;
+    left: 5%;
+	font-size: var(--font-size-algemeen);
+    color: var(--color-text-taycan);
+}
+
 
 
 
@@ -524,31 +694,32 @@ a {
 
 /* FOOTER */
 
-footer {
-	background-color: #111;
-	color: #eee;
-	padding: 60px 0 120px 0;
+.footer-taycan {
+	font-family: PorscheRegular;
+	background-color: var(--color-text-taycan);
+	color: var(--color-text-white);
+	padding: 10% 0 120px 0;
 }
 
-footer section {
+.footer-taycan section {
 	margin: 0 8% 0 8%;
 }
 
-footer h2 {
+.footer-taycan h2 {
 	font-size: 18px;
 }
 
-footer section:nth-of-type(1) {
+.footer-taycan section:nth-of-type(1) {
 	padding: 0 0 36px 0;
 }
 
-footer section:nth-of-type(1) img {
+.footer-taycan section:nth-of-type(1) img {
 	width: 8%;
 	height: auto;
 	margin: 0 8px 0 0;
 }
 
-footer section:nth-of-type(1) a {
+.footer-taycan section:nth-of-type(1) a {
 	padding: 0 0 0 24px;
 	color: #eee;
 }
@@ -577,15 +748,15 @@ footer section:nth-of-type(1) a {
 }
 
 /* sociale media */
-footer section:nth-of-type(4) {
+.footer-taycan section:nth-of-type(4) {
 	padding: 0 0 36px 0;
 }
 
-footer section:nth-of-type(4) p {
+.footer-taycan section:nth-of-type(4) p {
 	margin: 8px 0;
 }
 
-footer section:nth-of-type(4) a img {
+.footer-taycan section:nth-of-type(4) a img {
 	background-color: #eee;
 	border-radius: 3px;
 	width: 50px;
@@ -595,24 +766,24 @@ footer section:nth-of-type(4) a img {
 }
 
 /* over porsche */
-footer section:nth-of-type(5) {
+.footer-taycan section:nth-of-type(5) {
 	padding: 0 0 96px 0;
 	display: flex;
 	flex-direction: column;
 }
 
-footer section:nth-of-type(5) a {
+.footer-taycan section:nth-of-type(5) a {
 	text-decoration: none;
 	color: #eee;
 	padding: 7px 0 0 0;
 }
 
 /* copyright */
-footer section:nth-of-type(6) {
+.footer-taycan section:nth-of-type(6) {
 	margin: 16px 8%;
 }
 
-footer section:nth-of-type(7) img {
+.footer-taycan section:nth-of-type(7) img {
 	width: 45%;
 	height: auto;
 	margin: 0 8% 0 8%;
@@ -620,4 +791,228 @@ footer section:nth-of-type(7) img {
 	filter: invert(1);
 	display: block;
 	margin: 0 auto;
+}
+
+
+
+
+
+
+
+/***********************************/
+/* PAGINA 2 - MODELLEN VERGELIJKEN */
+/***********************************/
+
+.profile-icon-vergelijken {
+	width: 24px;
+	height: 24px;
+	/* filter: invert(1); */
+}
+
+#menu-btn-vergelijken img {
+	width: 24px;
+	height: 24px;
+	/* filter: invert(1); */
+}
+
+
+.titel {
+	padding: 0 29px;
+	background-color: #eff0f1;
+}
+
+.titel h1 {
+	font-family: PorscheSemiBold;
+	font-size: 1.5em;
+	padding: 20px 0 10px 0;
+	margin: 0;
+
+}
+
+
+
+.vergelijken {
+	padding: 5% 6%;
+}
+
+.vergelijken section:nth-of-type(1) h2 {
+	font-family: PorscheSemiBold;
+	font-size: var(--font-size-h2-small);
+	margin: 0;
+}
+
+.vergelijken section:nth-of-type(2) {
+	font-size: var(--font-size-algemeen);
+	margin: 20px 0 0 0;
+}
+
+.vergelijken section:nth-of-type(2) button {
+	font-family: PorscheRegular;
+	font-size: 16px;
+	margin: 0 10px 0 0;
+}
+
+.vergelijken section:nth-of-type(2) button:first-of-type {
+	width: 100%;
+	padding: 13px 21px 13px 40px;
+	background-color: #313639;
+	border: transparent;
+	color: #ffffff;
+	text-align: left;
+}
+
+.vergelijken section:nth-of-type(2) button:nth-of-type(2),
+.vergelijken section:nth-of-type(2) button:nth-of-type(3) {
+	margin: 10px 10px 0 0;
+	padding: 12px 20px 12px 40px;
+	background-color: transparent;
+	border-width: 1px;
+	text-align: left;
+}
+
+
+
+
+
+.modellen {
+	padding: 25px 29px;
+}
+
+.modellen section:nth-of-type(1) h2 {
+	font-family: PorscheSemiBold;
+	font-size: 28px;
+}
+
+.modellen section:nth-of-type(2) {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.card {
+	width: calc(50% - 5px);
+	height: auto;
+	font-family: PorscheRegular;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+}
+
+.card h3 {
+	font-size: var(--font-size-algemeen);
+	margin: 0;
+}
+
+.card p {
+	width: fit-content;
+	margin: 0;
+}
+
+
+
+
+
+.brandstof {
+	padding: 25px 29px;
+}
+
+.brandstof h2 {
+	font-family: PorscheSemiBold;
+}
+
+.brandstof p {
+	font-family: PorscheRegular;
+}
+
+
+
+.meer-over {
+	padding: 25px 29px 20px 29px;
+}
+
+.meer-over h2 {
+	font-family: PorscheSemiBold;
+}
+
+.meer-over a {
+	display: flex;
+	color: var(--color-text);
+	text-decoration: none;
+	font-family: PorscheRegular;
+	padding: 0 0 20px 0;
+}
+
+
+
+
+
+.overige-links {
+	padding: 0 29px 25px 29px;
+}
+
+.overige-links button {
+	display: flex;
+	border: none;
+	background-color: transparent;
+	font-family: PorscheSemiBold;
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+.overige-links h2 {
+	margin: 20px 0 5px 0;
+	font-size: 18px;
+	font-family: PorscheSemiBold;
+	color: #959899;
+}
+
+.overige-links a img {
+	background-color: #eee;
+	width: 50px;
+	height: auto;
+	padding: 10px;
+	margin: 0 5px 0 0;
+	filter: invert(1);
+}
+
+
+
+
+
+.footer-vergelijken {
+	padding: 0 29px 70px 29px;
+	background-color: #191f22;
+	color: #ffffff;
+}
+
+.footer-vergelijken section:nth-of-type(1) {
+	padding: 20px 0 20px 0;
+}
+
+.footer-vergelijken section:nth-of-type(1) h2 {
+	font-family: PorscheSemiBold;
+	font-size: var(--font-size-algemeen);
+}
+
+.footer-vergelijken section:nth-of-type(1) button {
+	font-family: PorscheRegular;
+	font-size: 100%;
+	border: none;
+	background-color: #313639;
+	color: var(--color-text-white);
+	padding: 13px;
+	margin: 10px 50px 0 0;
+	width: 100%;
+	text-align: left;
+}
+
+.footer-vergelijken section:nth-of-type(2) {
+	font-family: PorscheRegular;
+	font-size: 100%;
+}
+
+.footer-vergelijken section:nth-of-type(2) p {
+	margin: 3% 0 0 0;
 }
