@@ -67,8 +67,19 @@
 
 /* 
 HEADER
-https://www.w3schools.com/css/css_positioning.asp
-https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2 
+  1. https://flexboxfroggy.com/#nl
+  2. https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  15. https://www.youtube.com/watch?v=aNDqzlAKmZc&ab_channel=Treehouse
+  16. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+  17. https://mukundkumra.medium.com/create-a-responsive-hamburger-menu-with-html-and-css-a-step-by-step-tutorial-c63e44fcee2e
+  18. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+  19. https://www.tutorialspoint.com/how-to-create-hamburger-menu-for-mobile-devices
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  23. https://www.w3schools.com/css/css_positioning.asp
 */
 
 header {
@@ -151,8 +162,15 @@ nav ul li a {
 
 /* 
 "HEADER" afbeeldingen
-https://www.w3schools.com/css/css_positioning.asp
-https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2 
+  1. https://flexboxfroggy.com/#nl
+  2. https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  20. https://www.youtube.com/watch?v=3ncFpP8GP4g&ab_channel=KevinPowell
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  23. https://www.w3schools.com/css/css_positioning.asp
 */
 
 .header-imgs {
@@ -190,7 +208,12 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
 
 /* 
 Uitvoeringen Weissach Model
-https://flexboxfroggy.com/#nl
+  1. https://flexboxfroggy.com/#nl
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  10. ChatGPT promtp: Hoe voorkom ik dat een CSS-regel onbedoeld invloed heeft op andere secties van mijn website?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
 
 .uitvoeringen-weissach-model {
@@ -277,6 +300,15 @@ https://flexboxfroggy.com/#nl
 
 
 
+/* 
+Tech specs
+  1. https://flexboxfroggy.com/#nl
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
 
 .tech-specs {
 	margin: var(--margin-body);
@@ -317,8 +349,20 @@ https://flexboxfroggy.com/#nl
 
 
 
-
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/content */
+/* 
+Overfeel
+  1. https://flexboxfroggy.com/#nl
+  2. https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
+  4. https://developer.mozilla.org/en-US/docs/Web/CSS/content
+  5. https://www.w3schools.com/cssref/pr_gen_content.php
+  6. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  23. https://www.w3schools.com/css/css_positioning.asp
+*/
 
 .overfeel {
 	margin: var(--margin-body);
@@ -392,7 +436,20 @@ https://flexboxfroggy.com/#nl
 
 
 
-
+/* 
+Hoogtepunten
+  1. https://flexboxfroggy.com/#nl
+  2. https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
+  3. https://www.w3schools.com/howto/howto_css_image_text.asp
+  9. ChatGPT: Hoe kan ik ervoor zorgen dat de tekstkleur alleen op de tweede sectie wordt toegepast zonder het gebruik van extra classes of ID's?
+  10. ChatGPT promtp: Hoe voorkom ik dat een CSS-regel onbedoeld invloed heeft op andere secties van mijn website?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  23. https://www.w3schools.com/css/css_positioning.asp
+  24. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
+*/
 
 .hoogtepunten {
 	margin: 0 8% 0 8%;
@@ -457,7 +514,20 @@ https://flexboxfroggy.com/#nl
 
 
 
-
+/* 
+Prestaties
+  1. https://flexboxfroggy.com/#nl
+  2. https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
+  3. https://www.w3schools.com/howto/howto_css_image_text.asp
+  9. ChatGPT: Hoe kan ik ervoor zorgen dat de tekstkleur alleen op de tweede sectie wordt toegepast zonder het gebruik van extra classes of ID's?
+  10. ChatGPT promtp: Hoe voorkom ik dat een CSS-regel onbedoeld invloed heeft op andere secties van mijn website?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  23. https://www.w3schools.com/css/css_positioning.asp
+  24. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
+*/
 
 .prestaties {
 	margin: 0 8% 0 8%;
@@ -474,12 +544,12 @@ https://flexboxfroggy.com/#nl
 	z-index: -1;
 }
 
-.prestaties > section:nth-of-type(1) img {
+.prestaties>section:nth-of-type(1) img {
 	width: 100%;
 	height: auto;
 }
 
-.prestaties > section:nth-of-type(2) {
+.prestaties>section:nth-of-type(2) {
 	text-align: center;
 	color: var(--color-text-white);
 }
@@ -489,12 +559,12 @@ https://flexboxfroggy.com/#nl
 	font-size: var(--font-size-h2-small);
 }
 
-.prestaties > section:nth-of-type(2) p {
+.prestaties>section:nth-of-type(2) p {
 	font-family: PorscheRegular;
 	font-size: var(--font-size-algemeen);
 }
 
-.prestaties > section:nth-of-type(3) {
+.prestaties>section:nth-of-type(3) {
 	padding: 0 0 10% 0;
 }
 
@@ -522,7 +592,7 @@ https://flexboxfroggy.com/#nl
 	padding: 5%;
 	min-width: 100%;
 	font-family: PorscheRegular;
-	background-color:rgb(222, 224, 225);
+	background-color: rgb(222, 224, 225);
 	border-radius: 15px;
 	align-content: center;
 }
@@ -548,7 +618,7 @@ https://flexboxfroggy.com/#nl
 .prestaties-scroll section:nth-of-type(1) p:nth-of-type(4) {
 	font-size: var(--font-size-algemeen);
 	color: var(--color-text-small);
-	
+
 }
 
 .prestaties-scroll section:nth-of-type(2) p:nth-of-type(1),
@@ -565,7 +635,7 @@ https://flexboxfroggy.com/#nl
 }
 
 
-.prestaties-scroll section:nth-of-type(2) p:nth-of-type(2){
+.prestaties-scroll section:nth-of-type(2) p:nth-of-type(2) {
 	font-size: var(--font-size-h2-small);
 }
 
@@ -639,15 +709,20 @@ https://flexboxfroggy.com/#nl
 
 
 
-
+/* 
+Macan topsnelheid
+  1. https://flexboxfroggy.com/#nl
+  2. https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
+  3. https://www.w3schools.com/howto/howto_css_image_text.asp
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  23. https://www.w3schools.com/css/css_positioning.asp
+*/
 
 .macan-topsnelheid {
 	margin: 0 8% 0 8%;
-	/* display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center; */
 }
 
 .macan-topsnelheid section {
@@ -666,15 +741,16 @@ https://flexboxfroggy.com/#nl
 	padding: 3%;
 	position: absolute;
 	bottom: 5%;
-    left: 5%;
-    color: var(--color-text-taycan);
-    text-decoration: none;
-    text-align: left;
+	left: 5%;
+	color: var(--color-text-taycan);
+	text-decoration: none;
+	text-align: left;
 	background-color: #6b6d705b;
 	border-radius: 10px;
 }
 
-.macan-topsnelheid section a h2, p {
+.macan-topsnelheid section a h2,
+p {
 	margin: 0;
 }
 
@@ -682,9 +758,9 @@ https://flexboxfroggy.com/#nl
 .macan-topsnelheid div {
 	position: absolute;
 	top: 5%;
-    left: 5%;
+	left: 5%;
 	font-size: var(--font-size-algemeen);
-    color: var(--color-text-taycan);
+	color: var(--color-text-taycan);
 }
 
 
@@ -692,7 +768,15 @@ https://flexboxfroggy.com/#nl
 
 
 
-/* FOOTER */
+/* 
+FOOTER
+  1. https://flexboxfroggy.com/#nl
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
 
 .footer-taycan {
 	font-family: PorscheRegular;
@@ -803,6 +887,27 @@ https://flexboxfroggy.com/#nl
 /* PAGINA 2 - MODELLEN VERGELIJKEN */
 /***********************************/
 
+
+
+
+
+/* 
+HEADER
+  1. https://flexboxfroggy.com/#nl
+  2. https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  15. https://www.youtube.com/watch?v=aNDqzlAKmZc&ab_channel=Treehouse
+  16. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+  17. https://mukundkumra.medium.com/create-a-responsive-hamburger-menu-with-html-and-css-a-step-by-step-tutorial-c63e44fcee2e
+  18. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+  19. https://www.tutorialspoint.com/how-to-create-hamburger-menu-for-mobile-devices
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  23. https://www.w3schools.com/css/css_positioning.asp
+*/
+
 .profile-icon-vergelijken {
 	width: 24px;
 	height: 24px;
@@ -815,6 +920,13 @@ https://flexboxfroggy.com/#nl
 	/* filter: invert(1); */
 }
 
+
+
+
+
+/* 
+Titel
+ */
 
 .titel {
 	padding: 0 29px;
@@ -830,6 +942,15 @@ https://flexboxfroggy.com/#nl
 }
 
 
+
+
+
+/* 
+Vergelijken
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+*/
 
 .vergelijken {
 	padding: 5% 6%;
@@ -873,6 +994,15 @@ https://flexboxfroggy.com/#nl
 
 
 
+/* 
+Modellen
+  1. https://flexboxfroggy.com/#nl
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
 
 .modellen {
 	padding: 25px 29px;
@@ -914,6 +1044,10 @@ https://flexboxfroggy.com/#nl
 
 
 
+/* 
+Brandstof
+*/
+
 .brandstof {
 	padding: 25px 29px;
 }
@@ -927,6 +1061,18 @@ https://flexboxfroggy.com/#nl
 }
 
 
+
+
+
+/* 
+Meer over
+  1. https://flexboxfroggy.com/#nl
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
 
 .meer-over {
 	padding: 25px 29px 20px 29px;
@@ -947,6 +1093,15 @@ https://flexboxfroggy.com/#nl
 
 
 
+/* 
+Overige links
+  1. https://flexboxfroggy.com/#nl
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
 
 .overige-links {
 	padding: 0 29px 25px 29px;
@@ -980,6 +1135,16 @@ https://flexboxfroggy.com/#nl
 
 
 
+
+/* 
+FOOTER
+  1. https://flexboxfroggy.com/#nl
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
 
 .footer-vergelijken {
 	padding: 0 29px 70px 29px;

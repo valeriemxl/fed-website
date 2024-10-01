@@ -52,6 +52,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Gebruik https://www.a11yproject.com/checklist/
+
   Lijst met je bevindingen die in de test naar voren kwamen: de website van Porsche voldoet niet volledig aan de A11Y Project Checklist
   - Er zijn enkele toegankelijkheidsmaatregelen aanwezig, zoals alternatieve teksten voor afbeeldingen en voldoende kleurcontrast
   - Hoewel sommige afbeeldingen alt-teksten hebben, is er geen uitgebreide beschrijving voor complexe visuele elementen zoals grafieken of diagrammen
@@ -109,9 +110,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - sectionns beginnen met h2's (kopjes aanpassen in mijn HTML)
-  - sections mogen (probeer wel semantische HTML te gebruiken)
-  - nth of child proberen te vermijden
+  - Sections beginnen met h2's (kopjes aanpassen in mijn HTML)
+  - Sections mogen (probeer wel semantische HTML te gebruiken)
+  - nth of child proberen te vermijden?
   - Is het echt een button of een link?
 
 </details>
@@ -138,7 +139,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
-  Eigen vragen:
+  Vragen:
   1. Hoe kom ik aan het juiste font?
   2. Zijn mijn sections zo goed ingedeeld?
   3. Gebruik ik id's op de goede manier?
@@ -147,7 +148,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - "hoofd" sections classes geven
-  - "onder" sections aanroepen met bijv nth of type/child
+  - "onder" sections aanroepen met bijv nth of type/child --> dus wel nth of child gebruiken
   - section in section mag
   - class namen mogen vaker op een pagina genoemt worden,  id namen niet
   - dus bijv 2 afbeeldingen in 2 verschillende sections zijn hetzelfde gestijlt mag je ze dezelfde class naam geven
@@ -165,6 +166,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Nog niet kunnen doen (01-10)
 
 </details>
 
@@ -194,10 +196,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - CSS style sheets samenvoegen
+  - Wel een beetje responsief maken
+  - Hoe ga ik mijn website verbeteren op gebied van toegankelijkheid?
+  - Welke "surface plane" onderdelen ga ik toevoegen?
+  - README bijwerken
 
 </details>
 
@@ -221,9 +224,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het surface plane onderdeel is niet gelukt. Ik heb de website niet per se meer toegankelijk gemaakt dan die al was.
+  Ook veel dynamische onderdelen zijn niet gelukt om na te maken. Ik hoop dat dit bij de herkansing wel lukt.
+  Ik weet eigenlijk nog steeds niet of ik het nou op de goede manier heb gedaan? Ik heb een beetje het gevoel dat ik zomaar wat heb gedaan en dat het deels per ongelijk gewoon gelukt is.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+
 </details>
 
 
@@ -245,6 +251,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   4. https://developer.mozilla.org/en-US/docs/Web/CSS/content
   5. https://www.w3schools.com/cssref/pr_gen_content.php
   6. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
-  7. ChatGPT prompt: 
+  7. ChatGPT prompt: Wat doet transform: translateX(-50%) en wanneer gebruik ik dit?
+  8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
+  9. ChatGPT: Hoe kan ik ervoor zorgen dat de tekstkleur alleen op de tweede sectie wordt toegepast zonder het gebruik van extra classes of ID's?
+  10. ChatGPT promtp: Hoe voorkom ik dat een CSS-regel onbedoeld invloed heeft op andere secties van mijn website?
+  11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
+  12. https://churchm.ag/responsive-calculator-pixels-percentages/
+  13. https://www.w3schools.com/css/css_display_visibility.asp
+  14. https://www.w3schools.com/css/css_grid.asp
+  15. https://www.youtube.com/watch?v=aNDqzlAKmZc&ab_channel=Treehouse
+  16. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+  17. https://mukundkumra.medium.com/create-a-responsive-hamburger-menu-with-html-and-css-a-step-by-step-tutorial-c63e44fcee2e
+  18. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+  19. https://www.tutorialspoint.com/how-to-create-hamburger-menu-for-mobile-devices
+  20. https://www.youtube.com/watch?v=3ncFpP8GP4g&ab_channel=KevinPowell
+  21. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  22. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX
+  23. https://www.w3schools.com/css/css_positioning.asp
+  24. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
 
 </details>
