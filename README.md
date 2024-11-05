@@ -62,40 +62,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Gebruikers kunnen niet altijd controle uitoefenen op animaties of automatische inhoud, wat afleidend kan zijn voor bepaalde gebruikersgroepen​ -->
 
 - **Duidelijke Taal**:
-  - De website gebruikt over het algemeen duidelijke taal, maar sommige technische termen en marketingtaal kunnen moeilijk te begrijpen zijn voor sommige gebruikers.
+  De website gebruikt over het algemeen duidelijke taal, maar sommige technische termen en marketingtaal kunnen moeilijk te begrijpen zijn voor sommige gebruikers.
 
 - **Alt-Attributen**:
-  - Niet alle afbeeldingen hebben alt-attributen. Dit moet worden toegevoegd om de toegankelijkheid te verbeteren.
+  Niet alle afbeeldingen hebben alt-attributen. Dit moet worden toegevoegd om de toegankelijkheid te verbeteren.
 
 - **Tekstalternatieven voor complexe afbeeldingen**:
-  - Complexe afbeeldingen zoals grafieken en kaarten missen tekstalternatieven. Dit is essentieel voor gebruikers die schermlezers gebruiken.
+  Complexe afbeeldingen zoals grafieken en kaarten missen tekstalternatieven. Dit is essentieel voor gebruikers die schermlezers gebruiken.
 
 - **Zichtbare Focusstijl**:
-  - Interactieve elementen hebben een zichtbare focusstijl, wat goed is voor toetsenbordnavigatie.
+  Interactieve elementen hebben een zichtbare focusstijl, wat goed is voor toetsenbordnavigatie.
 
 - **Toetsenbordfocusvolgorde**:
-  - De focusvolgorde komt overeen met de visuele lay-out, wat de navigatie vergemakkelijkt.
+  De focusvolgorde komt overeen met de visuele lay-out, wat de navigatie vergemakkelijkt.
 
 - **Gebruik van Heading-Elementen**:
-  - Heading-elementen worden correct gebruikt om inhoud te introduceren, maar de volgorde kan soms verbeterd worden voor een logischer structuur.
+  Heading-elementen worden correct gebruikt om inhoud te introduceren, maar de volgorde kan soms verbeterd worden voor een logischer structuur.
 
 - **Gebruik van Lijst-Elementen**:
-  - Lijst-elementen (`ol`, `ul`, `dl`) worden correct gebruikt voor lijstinhoud, wat de leesbaarheid verbetert.
+  Lijst-elementen (`ol`, `ul`, `dl`) worden correct gebruikt voor lijstinhoud, wat de leesbaarheid verbetert.
 
 - **Skip Link**:
-  - Er is geen zichtbare skip link aanwezig. Dit zou toegevoegd moeten worden om gebruikers snel naar de hoofdinhoud te laten springen.
+  Er is geen zichtbare skip link aanwezig. Dit zou toegevoegd moeten worden om gebruikers snel naar de hoofdinhoud te laten springen.
 
 - **Gebruik van `label`-Elementen**:
-  - Niet alle invoerelementen hebben een bijbehorend `label`-element. Dit moet worden gecorrigeerd om de toegankelijkheid te verbeteren.
+  Niet alle invoerelementen hebben een bijbehorend `label`-element. Dit moet worden gecorrigeerd om de toegankelijkheid te verbeteren.
 
 - **Ondertiteling en Transcripties**:
-  - Video's hebben geen ondertiteling en audio heeft geen transcripties. Dit is cruciaal voor gebruikers met gehoorproblemen.
+  Video's hebben geen ondertiteling en audio heeft geen transcripties. Dit is cruciaal voor gebruikers met gehoorproblemen.
 
 - **Contrast**:
-  - Het contrast voor tekst, iconen en randen van invoerelementen is over het algemeen goed, maar kan op sommige plaatsen verbeterd worden.
+  Het contrast voor tekst, iconen en randen van invoerelementen is over het algemeen goed, maar kan op sommige plaatsen verbeterd worden.
 
 - **Responsive Design**:
-  - De site is goed te gebruiken op zowel desktop als mobiele apparaten, zonder horizontaal scrollen.
+  De site is goed te gebruiken op zowel desktop als mobiele apparaten, zonder horizontaal scrollen.
 
 **Dit wil ik gaan proberen te verbeteren**
 - Alt-attributen toevoegen aan alle afbeeldingen
