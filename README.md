@@ -314,6 +314,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   26. https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
   27. ChatGPT prompt: wat gebeurt er als je met classList.toggle een class toevoegt of verwijdert om een menu te openen en te sluiten? Geef voorbeelden en leg uit.
   28. https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark  
+  29. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 </details>
