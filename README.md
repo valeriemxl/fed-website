@@ -61,6 +61,62 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - De hiërarchie van koppen (zoals h1, h2, etc.) wordt niet altijd goed gebruikt, wat moeilijk is voor schermlezers en de navigatie belemmert
   - Gebruikers kunnen niet altijd controle uitoefenen op animaties of automatische inhoud, wat afleidend kan zijn voor bepaalde gebruikersgroepen​
 
+  Natuurlijk! Hier zijn de belangrijkste bevindingen van het toegankelijkheidsonderzoek, geschreven vanuit het perspectief van een 23-jarige CMD-student:
+
+---
+
+### Toegankelijkheidsonderzoek Porsche Website
+
+#### Belangrijkste Bevindingen
+
+- **Duidelijke Taal**:
+  - De website gebruikt over het algemeen duidelijke taal, maar sommige technische termen en marketingtaal kunnen moeilijk te begrijpen zijn voor sommige gebruikers.
+
+- **Alt-Attributen**:
+  - Niet alle afbeeldingen hebben alt-attributen. Dit moet worden toegevoegd om de toegankelijkheid te verbeteren.
+
+- **Tekstalternatieven voor Complexe Afbeeldingen**:
+  - Complexe afbeeldingen zoals grafieken en kaarten missen tekstalternatieven. Dit is essentieel voor gebruikers die schermlezers gebruiken.
+
+- **Zichtbare Focusstijl**:
+  - Interactieve elementen hebben een zichtbare focusstijl, wat goed is voor toetsenbordnavigatie.
+
+- **Toetsenbordfocusvolgorde**:
+  - De focusvolgorde komt overeen met de visuele lay-out, wat de navigatie vergemakkelijkt.
+
+- **Gebruik van Heading-Elementen**:
+  - Heading-elementen worden correct gebruikt om inhoud te introduceren, maar de volgorde kan soms verbeterd worden voor een logischer structuur.
+
+- **Gebruik van Lijst-Elementen**:
+  - Lijst-elementen (`ol`, `ul`, `dl`) worden correct gebruikt voor lijstinhoud, wat de leesbaarheid verbetert.
+
+- **Skip Link**:
+  - Er is geen zichtbare skip link aanwezig. Dit zou toegevoegd moeten worden om gebruikers snel naar de hoofdinhoud te laten springen.
+
+- **Gebruik van `label`-Elementen**:
+  - Niet alle invoerelementen hebben een bijbehorend `label`-element. Dit moet worden gecorrigeerd om de toegankelijkheid te verbeteren.
+
+- **Ondertiteling en Transcripties**:
+  - Video's hebben geen ondertiteling en audio heeft geen transcripties. Dit is cruciaal voor gebruikers met gehoorproblemen.
+
+- **Contrast**:
+  - Het contrast voor tekst, iconen en randen van invoerelementen is over het algemeen goed, maar kan op sommige plaatsen verbeterd worden.
+
+- **Responsive Design**:
+  - De site is goed te gebruiken op zowel desktop als mobiele apparaten, zonder horizontaal scrollen.
+
+Dit wil ik gaan verbeteren
+- Voeg alt-attributen toe aan alle afbeeldingen.
+- Zorg voor tekstalternatieven voor complexe afbeeldingen.
+- Voeg een zichtbare skip link toe.
+- Zorg ervoor dat alle invoerelementen een bijbehorend `label`-element hebben.
+- Voeg ondertiteling toe aan video's en transcripties aan audio.
+- Verbeter het contrast waar nodig.
+
+---
+
+Deze punten geven een goed overzicht van de huidige toegankelijkheid van de Porsche-pagina's en bieden concrete verbeterpunten. Heb je nog verdere vragen of hulp nodig bij specifieke verbeteringen?
+
 </details>
 
 
@@ -94,7 +150,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb voor de eerste pagina alle HTML opgestelt en de basis van mijn CSS opgesteld.
+  Mijn HTML is nog niet helemaal semantisch correct. Ik moet de HTML nog op gaan breken in sections, articles, etc.
 
 
   ### Agenda voor meeting
@@ -245,6 +302,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
+  0. Studentassistent
   1. https://flexboxfroggy.com/#nl
   2. https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex2
   3. https://www.w3schools.com/howto/howto_css_image_text.asp
@@ -253,7 +311,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   6. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
   7. ChatGPT prompt: Wat doet transform: translateX(-50%) en wanneer gebruik ik dit?
   8. ChatGPT prompt: Hoe zorg ik ervoor dat het minder hard opschaalt als ik het scherm groter maak?
-  9. ChatGPT: Hoe kan ik ervoor zorgen dat de tekstkleur alleen op de tweede sectie wordt toegepast zonder het gebruik van extra classes of ID's?
+  9. ChatGPT prompt: Hoe kan ik ervoor zorgen dat de tekstkleur alleen op de tweede sectie wordt toegepast zonder het gebruik van extra classes of ID's?
   10. ChatGPT promtp: Hoe voorkom ik dat een CSS-regel onbedoeld invloed heeft op andere secties van mijn website?
   11. ChatGPT prompt: Hoe kan ik in CSS de breedte van een element in percentages omrekenen naar pixels in de Inspector?
   12. https://churchm.ag/responsive-calculator-pixels-percentages/
@@ -269,5 +327,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   22. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX
   23. https://www.w3schools.com/css/css_positioning.asp
   24. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
+  25. https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+  26. https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+  27. ChatGPT prompt: wat gebeurt er als je met classList.toggle een class toevoegt of verwijdert om een menu te openen en te sluiten? Geef voorbeelden en leg uit.
+  28. https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark  
+
 
 </details>

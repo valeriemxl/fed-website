@@ -5,12 +5,10 @@
 *::after,
 *::before {
 	box-sizing: border-box;
+	/* outline: 1px solid red; */
+	transition: background-color 0.3s, color 0.3s;
+	/* voor een smooth overgang */
 }
-
-/* * {
-	outline: 1px solid red;
-} */
-
 
 
 
@@ -25,7 +23,9 @@
 	--color-text-white: #FBFCFF;
 	--color-text-small: #6B6D70;
 	--background-color: #FBFCFF;
+	--background-modellen: #EFF0F1;
 	--margin-body: 0 8% 0 8%;
+	--magin-body-vergelijken: 0 6% 0 6%;
 	--font-size-h1: 7.5vw;
 	--font-size-h2: 8vw;
 	--font-size-h2-small: 6.5vw;
@@ -34,15 +34,54 @@
 
 
 
+/* 
+LIGHT / DARK MODE
+  25. https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+  28. https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark  
+*/
+
+.dark-mode {
+	background-color: #000000;
+	--color-text-taycan: #ffffff;
+	--color-text-vergelijken: #ffffff;
+	--color-text-white: #000000;
+	--color-text-small: #d3d4d6;
+	--background-color: #6B6D70;
+	--background-modellen: #1c1c1d;
+}
+
+.light-dark-mode {
+	margin: var(--margin-body);
+	padding: 1em;
+	text-align: center;
+}
+
+.light-dark-mode button {
+	font-family: PorscheRegular;
+	font-size: var(--font-size-algemeen);
+	background: var(--color-text-taycan);
+	color: var(--color-text-white);
+	border: none;
+	font-size: 16px;
+	/* width: 100%; */
+	padding: 13px 26px;
+	border-radius: 3px;
+	text-decoration: none;
+}
 
 
-/****************/
-/* JOUW STYLING */
-/****************/
+
+
+
+/******************/
+/* PORSCHE TAYCAN */
+/******************/
+
+
 
 /* 
-Fonts
-met behulp van studentassistent
+FONTS
+  0. met behulp van studentassistent
 */
 
 @font-face {
@@ -58,13 +97,6 @@ met behulp van studentassistent
 	font-weight: 600;
 	src: url('../Fonts/porsche-next-latin-semi-bold.b5f6fca.woff2') format('woff2');
 }
-
-/* @font-face {
-	font-family: PorscheBold;
-	font-style: normal;
-	font-weight: 800;
-	src: url('../Fonts/porsche-next-latin-bold.0fbdc6d.woff2') format('woff2');
-} */
 
 
 
@@ -94,7 +126,8 @@ header {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
-	z-index: 1; /* Z-index om ervoor te zorgen dat de header bovenop andere elementen verschijnt */
+	z-index: 1;
+	/* Z-index om ervoor te zorgen dat de header bovenop andere elementen verschijnt */
 }
 
 /* Hamburger menu */
@@ -103,14 +136,16 @@ header {
 	border: none;
 	background: none;
 	cursor: pointer;
-	z-index: 2; /* Z-index om ervoor te zorgen dat het menu bovenop verschijnt */
+	z-index: 2;
+	/* Z-index om ervoor te zorgen dat het menu bovenop verschijnt */
 }
 
 /* (values in px) */
 #menu-btn img {
 	width: 24px;
 	height: 24px;
-	filter: invert(1); /* Kleuren inverteren voor een donkere achtergrond */
+	filter: invert(1);
+	/* Kleuren inverteren voor een donkere achtergrond */
 }
 
 /* Overlay voor het menu, standaard verborgen */
@@ -121,8 +156,10 @@ header {
 	width: 100%;
 	height: 100%;
 	background-color: var(--background-color);
-	transition: left 0.3s ease-in-out; /* "Smooth" transitie bij openen/sluiten */
-	z-index: 3; /* Z-index om ervoor te zorgen dat het menu bovenop alles verschijnt */
+	transition: left 0.3s ease-in-out;
+	/* "Smooth" transitie bij openen/sluiten */
+	z-index: 3;
+	/* Z-index om ervoor te zorgen dat het menu bovenop alles verschijnt */
 }
 
 /* Menu zichtbaar maken als het wordt geopend */
@@ -160,7 +197,8 @@ nav ul li a {
 .profile-icon {
 	width: 24px;
 	height: 24px;
-	filter: invert(1); /* Kleuren inverteren voor een donkere achtergrond */
+	filter: invert(1);
+	/* Kleuren inverteren voor een donkere achtergrond */
 }
 
 
@@ -193,14 +231,16 @@ nav ul li a {
 	top: 0;
 	left: 0;
 	width: 100vw;
-	filter: brightness(50%); /* Afbeelding donkerder maken */
+	filter: brightness(50%);
+	/* Afbeelding donkerder maken */
 }
 
 .header-imgs img:nth-of-type(2) {
 	position: absolute;
 	z-index: -2;
 	width: 55%;
-	filter: invert(1); /* Kleur inverteren */
+	filter: invert(1);
+	/* Kleur inverteren */
 }
 
 .header-imgs img:nth-of-type(3) {
@@ -258,6 +298,7 @@ Uitvoeringen Weissach Model
 
 .uitvoeringen-weissach-model section:nth-of-type(2) {
 	padding: 10px 0;
+	color: var(--color-text-taycan);
 	font-family: PorscheRegular;
 }
 
@@ -267,7 +308,7 @@ Uitvoeringen Weissach Model
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(2) p:first-of-type {
-	background-color: #EEEFF2;
+	background-color: var(--background-color);
 	border-radius: 3px;
 	padding: 1px 6px;
 }
@@ -279,7 +320,6 @@ Uitvoeringen Weissach Model
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(3) a {
@@ -330,6 +370,7 @@ Tech specs
 
 .tech-specs h2 {
 	font-size: var(--font-size-h2);
+	color: var(--color-text-taycan);
 	margin: 0;
 }
 
@@ -381,17 +422,19 @@ Overfeel
 	justify-content: center;
 	text-align: center;
 	font-family: PorscheRegular;
-
 }
 
 .overfeel::before {
-	content: ''; /* Pseudo-element zonder inhoud, gebruikt voor achtergrond */
+	content: '';
+	/* Pseudo-element zonder inhoud, gebruikt voor achtergrond */
 	position: absolute;
 	/* top: 20%; */
-	width: 100vw; /* Breedte van het pseudo-element is 100% van de viewport breedte */
+	width: 100vw;
+	/* Breedte van het pseudo-element is 100% van de viewport breedte */
 	height: 60%;
-	background-color: var(--color-text-taycan);
-	z-index: -1; /* Plaatst achter andere inhoud */
+	background-color: black;
+	z-index: -1;
+	/* Plaatst achter andere inhoud */
 }
 
 .overfeel img:nth-of-type(1) {
@@ -430,7 +473,7 @@ Overfeel
 	border-radius: 10px;
 	display: block;
 	align-self: flex-start;
-	/* margin: 0 0 -11% -13%; */
+	margin: 0 0 -11% -13%;
 }
 
 .overfeel img:nth-of-type(4) {
@@ -459,23 +502,25 @@ Hoogtepunten
 */
 
 .hoogtepunten {
-	margin: 0 8% 0 8%;
+	margin: var(--margin-body);
 }
 
 .hoogtepunten h2:first-child {
 	font-family: PorscheSemiBold;
 	font-size: var(--font-size-h2-small);
 	text-align: center;
+	color: var(--color-text-taycan);
 }
 
 .hoogtepunten-scroll {
 	display: flex;
 	flex-wrap: nowrap;
-	overflow-x: auto; /* Horizontaal scrollbaar als de inhoud breder is dan de section */
+	overflow-x: auto;
+	/* Horizontaal scrollbaar als de inhoud breder is dan de section */
 }
 
 .hoogtepunten-scroll section {
-	min-width: 100%;
+	min-width: 80%;
 	position: relative;
 }
 
@@ -490,7 +535,7 @@ Hoogtepunten
 .hoogtepunten-scroll section p {
 	font-family: PorscheRegular;
 	position: absolute;
-	color: var(--color-text-white);
+	color: white;
 }
 
 .hoogtepunten-scroll section:nth-of-type(1) {
@@ -498,14 +543,14 @@ Hoogtepunten
 }
 
 .hoogtepunten-scroll section:nth-of-type(1) h2 {
-	bottom: 22%;
+	bottom: 26%;
 	left: 5%;
 	font-size: var(--font-size-h2-small);
 	margin: 0;
 }
 
 .hoogtepunten-scroll section:nth-of-type(2) h2 {
-	bottom: 26%;
+	bottom: 42%;
 	left: 5%;
 	font-size: var(--font-size-h2-small);
 	margin: 0;
@@ -536,29 +581,44 @@ Prestaties
   24. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
 */
 
-.prestaties {
+/* .prestaties {
 	margin: 0 8% 0 8%;
 	padding: 25% 0 30% 0;
 	position: relative;
+} */
+
+.prestaties {
+	margin: var(--margin-body);
+	padding: 50px 0 87px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
 .prestaties::before {
 	content: '';
+	/* Pseudo-element zonder inhoud, gebruikt voor achtergrond */
 	position: absolute;
-	width: 100%;
+	/* top: 20%; */
+	width: 100vw;
+	/* Breedte van het pseudo-element is 100% van de viewport breedte */
 	height: 75%;
-	background-color: var(--color-text-taycan);
+	background-color: black;
 	z-index: -1;
+	/* Plaatst achter andere inhoud */
 }
 
 .prestaties>section:nth-of-type(1) img {
-	width: 100%;
+	width: 100vw;
 	height: auto;
 }
 
 .prestaties>section:nth-of-type(2) {
 	text-align: center;
-	color: var(--color-text-white);
+	color: white;
 }
 
 .prestaties section:nth-of-type(2) h2 {
@@ -588,6 +648,7 @@ Prestaties
 	display: flex;
 	flex-direction: row;
 	overflow-x: auto;
+	/* width: 100vw; */
 }
 
 .prestaties-scroll img {
@@ -597,7 +658,7 @@ Prestaties
 
 .prestaties-scroll section {
 	padding: 5%;
-	min-width: 100%;
+	min-width: 80%;
 	font-family: PorscheRegular;
 	background-color: rgb(222, 224, 225);
 	border-radius: 15px;
@@ -729,7 +790,7 @@ Macan topsnelheid
 */
 
 .macan-topsnelheid {
-	margin: 0 8% 0 8%;
+	margin: var(--margin-body);
 }
 
 .macan-topsnelheid section {
@@ -752,13 +813,14 @@ Macan topsnelheid
 	color: var(--color-text-taycan);
 	text-decoration: none;
 	text-align: left;
-	background-color: #6b6d705b;
+	background-color: #6b6d7078;
 	border-radius: 10px;
 }
 
 .macan-topsnelheid section a h2,
 p {
 	margin: 0;
+	font-size: var(--font-size-algemeen);
 }
 
 
@@ -766,7 +828,7 @@ p {
 	position: absolute;
 	top: 5%;
 	left: 5%;
-	font-size: var(--font-size-algemeen);
+	/* font-size: var(--font-size-h2-small); */
 	color: var(--color-text-taycan);
 }
 
@@ -787,8 +849,8 @@ FOOTER
 
 .footer-taycan {
 	font-family: PorscheRegular;
-	background-color: var(--color-text-taycan);
-	color: var(--color-text-white);
+	background-color: black;
+	color: white;
 	padding: 10% 0 120px 0;
 }
 
@@ -888,13 +950,9 @@ FOOTER
 
 
 
-
-
 /***********************************/
 /* PAGINA 2 - MODELLEN VERGELIJKEN */
 /***********************************/
-
-
 
 
 
@@ -915,13 +973,23 @@ HEADER
   23. https://www.w3schools.com/css/css_positioning.asp
 */
 
-.profile-icon-vergelijken {
-	width: 24px;
-	height: 24px;
-	/* filter: invert(1); */
+
+
+#menu-btn-vergelijken {
+	padding: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
+	z-index: 2;
+	/* Z-index om ervoor te zorgen dat het menu bovenop verschijnt */
 }
 
 #menu-btn-vergelijken img {
+	width: 24px;
+	height: 24px;
+}
+
+.profile-icon-vergelijken {
 	width: 24px;
 	height: 24px;
 	/* filter: invert(1); */
@@ -933,19 +1001,19 @@ HEADER
 
 /* 
 Titel
- */
+*/
 
 .titel {
-	padding: 0 29px;
-	background-color: #eff0f1;
+	padding: 5px 0;
+	background-color: var(--background-modellen);
 }
 
 .titel h1 {
 	font-family: PorscheSemiBold;
 	font-size: 1.5em;
 	padding: 20px 0 10px 0;
-	margin: 0;
-
+	color: var(--color-text-vergelijken);
+	margin: var(--magin-body-vergelijken);
 }
 
 
@@ -960,13 +1028,14 @@ Vergelijken
 */
 
 .vergelijken {
-	padding: 5% 6%;
+	padding: 5% 0;
+	margin: var(--magin-body-vergelijken);
 }
 
 .vergelijken section:nth-of-type(1) h2 {
 	font-family: PorscheSemiBold;
-	font-size: var(--font-size-h2-small);
 	margin: 0;
+	color: var(--color-text-vergelijken);
 }
 
 .vergelijken section:nth-of-type(2) {
@@ -978,6 +1047,7 @@ Vergelijken
 	font-family: PorscheRegular;
 	font-size: 16px;
 	margin: 0 10px 0 0;
+	color: var(--color-text-vergelijken);
 }
 
 .vergelijken section:nth-of-type(2) button:first-of-type {
@@ -994,6 +1064,7 @@ Vergelijken
 	margin: 10px 10px 0 0;
 	padding: 12px 20px 12px 40px;
 	background-color: transparent;
+	color: var(--color-text-vergelijken);
 	border-width: 1px;
 	text-align: left;
 }
@@ -1012,12 +1083,16 @@ Modellen
 */
 
 .modellen {
-	padding: 25px 29px;
+	padding: 25px 0;
+	margin: var(--magin-body-vergelijken);
+
 }
 
 .modellen section:nth-of-type(1) h2 {
 	font-family: PorscheSemiBold;
 	font-size: 28px;
+	color: var(--color-text-vergelijken);
+
 }
 
 .modellen section:nth-of-type(2) {
@@ -1040,11 +1115,13 @@ Modellen
 .card h3 {
 	font-size: var(--font-size-algemeen);
 	margin: 0;
+	color: var(--color-text-vergelijken);
 }
 
 .card p {
 	width: fit-content;
 	margin: 0;
+	color: var(--color-text-vergelijken);
 }
 
 
@@ -1056,15 +1133,19 @@ Brandstof
 */
 
 .brandstof {
-	padding: 25px 29px;
+	padding: 25px 0;
+	margin: var(--magin-body-vergelijken);
+
 }
 
 .brandstof h2 {
 	font-family: PorscheSemiBold;
+	color: var(--color-text-vergelijken);
 }
 
 .brandstof p {
 	font-family: PorscheRegular;
+	color: var(--color-text-vergelijken);
 }
 
 
@@ -1082,16 +1163,19 @@ Meer over
 */
 
 .meer-over {
-	padding: 25px 29px 20px 29px;
+	padding: 25px 0 20px 0;
+	margin: var(--magin-body-vergelijken);
+
 }
 
 .meer-over h2 {
 	font-family: PorscheSemiBold;
+	color: var(--color-text-vergelijken);
 }
 
 .meer-over a {
 	display: flex;
-	color: var(--color-text);
+	color: var(--color-text-vergelijken);
 	text-decoration: none;
 	font-family: PorscheRegular;
 	padding: 0 0 20px 0;
@@ -1111,7 +1195,8 @@ Overige links
 */
 
 .overige-links {
-	padding: 0 29px 25px 29px;
+	padding: 0 0 25px 0;
+	margin: var(--magin-body-vergelijken);
 }
 
 .overige-links button {
@@ -1121,6 +1206,7 @@ Overige links
 	font-family: PorscheSemiBold;
 	font-size: 18px;
 	padding: 10px 0;
+	color: var(--color-text-vergelijken);
 }
 
 .overige-links h2 {
@@ -1131,7 +1217,7 @@ Overige links
 }
 
 .overige-links a img {
-	background-color: #eee;
+	background-color: var(--background-color);
 	width: 50px;
 	height: auto;
 	padding: 10px;
@@ -1154,9 +1240,13 @@ FOOTER
 */
 
 .footer-vergelijken {
-	padding: 0 29px 70px 29px;
+	padding: 0 0 70px 0;
 	background-color: #191f22;
 	color: #ffffff;
+}
+
+.footer-vergelijken section {
+	margin: var(--magin-body-vergelijken);
 }
 
 .footer-vergelijken section:nth-of-type(1) {
@@ -1173,16 +1263,16 @@ FOOTER
 	font-size: 100%;
 	border: none;
 	background-color: #313639;
-	color: var(--color-text-white);
+	color: white;
 	padding: 13px;
-	margin: 10px 50px 0 0;
+	margin: 10px 0 0 0;
 	width: 100%;
 	text-align: left;
 }
 
 .footer-vergelijken section:nth-of-type(2) {
 	font-family: PorscheRegular;
-	font-size: 100%;
+	font-size: var(--font-size-algemeen);
 }
 
 .footer-vergelijken section:nth-of-type(2) p {
