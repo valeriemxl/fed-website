@@ -115,15 +115,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina (1): 
   Detailpagina van de Porsche Taycan
-  <img src="readme-images/schets-detail.JPG" width="375px" alt="breakdown van de detailpagina van de Porsche Taycan">
+  - <img src="readme-images/schets-detail.JPG" width="375px" alt="breakdown van de detailpagina van de Porsche Taycan">
 
   ### de hele pagina (2): 
   Pagina om Porsche modellen te vergelijken
-  <img src="readme-images/schets-vergelijken.JPG" width="375px" alt="breakdown van de pagina om Porsche modellen te vergelijken">
+  - <img src="readme-images/schets-vergelijken.JPG" width="375px" alt="breakdown van de pagina om Porsche modellen te vergelijken">
 
   ### dynamisch deel (bijv menu): 
   Hamburgermenu
-  <img src="readme-images/schets-menu.JPG" width="375px" alt="breakdown van het hamburgermenu">
+  - <img src="readme-images/schets-menu.JPG" width="375px" alt="breakdown van het hamburgermenu">
 
 </details>
 
