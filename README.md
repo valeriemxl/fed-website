@@ -139,20 +139,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Ik heb voor de eerste pagina alle HTML opgestelt en de basis van mijn CSS opgesteld.
   Mijn HTML is nog niet helemaal semantisch correct. Ik moet de HTML nog op gaan breken in sections, articles, etc.
+  Ik vind het tot nu toe nog niet zo heel lastig, ik heb alleen wat moeite met het onderzoeken van de toegankelijkheid. 
+  En het zelf gebruiken van bijvoorbeeld de screenreader.
+  Ik heb helaas ook de breakdown schetsen veel te lang uitgesteld. 
+  Daardoor kwam ik er pas tegen het einde van het blok achter hoe handig die schets zou zijn geweest aan het begin van het proces...
+  Dan had ik denk ik mijn HTML veel eerder netjes kunnen opbreken in de juiste hoeveelheid sections etc.. 
+  In plaats van dat ik achteraf nog heel veel heb moeten knippen en plakken en schuiven en bewerken omdat ik erg veel sections en classes en id's had.
+
+  **Herkansing notitie**
+  Aangezien ik mijn README niet heel erg up to date had gehouden tijdens het programmeren is het lastig om nog screenshots toe te voegen van hoe ver ik was op dit moment in het proces. Daarom heb ikmijn best gedaan om het in zoveel mogelijk detail uit te leggen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1 (ik)      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | Dit hebben wij met ons groepje eigenlijk niet gedaan...  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Sections beginnen met h2's (kopjes aanpassen in mijn HTML)
   - Sections mogen (probeer wel semantische HTML te gebruiken)
