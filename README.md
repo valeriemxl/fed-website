@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details>
+<details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
@@ -60,8 +60,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Interactieve elementen zoals knoppen of links hebben dus geen duidelijke visuele focusstatus, waardoor toetsenbordnavigatie moeilijker wordt
   - De hiërarchie van koppen (zoals h1, h2, etc.) wordt niet altijd goed gebruikt, wat moeilijk is voor schermlezers en de navigatie belemmert
   - Gebruikers kunnen niet altijd controle uitoefenen op animaties of automatische inhoud, wat afleidend kan zijn voor bepaalde gebruikersgroepen​
-
-  Natuurlijk! Hier zijn de belangrijkste bevindingen van het toegankelijkheidsonderzoek, geschreven vanuit het perspectief van een 23-jarige CMD-student:
 
 ---
 
