@@ -145,7 +145,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   **Herkansing notitie**
 
-    Aangezien ik mijn README niet heel erg up to date had gehouden tijdens het programmeren is het lastig om nog screenshots toe te voegen van hoe ver ik was op dit moment in het proces. Daarom heb ik mijn best gedaan om het in zoveel mogelijk detail uit te leggen.
+  Aangezien ik mijn README niet heel erg up to date had gehouden tijdens het programmeren is het lastig om nog screenshots toe te voegen van hoe ver ik was op dit moment in het proces. Daarom heb ik mijn best gedaan om het in zoveel mogelijk detail uit te leggen.
 
 
   ### Agenda voor meeting
