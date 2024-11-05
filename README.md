@@ -184,27 +184,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1 (Valérie)     | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-  Vragen:
-  1. Hoe kom ik aan het juiste font?
-  2. Zijn mijn sections zo goed ingedeeld?
-  3. Gebruik ik id's op de goede manier?
+  | Hoe kom ik aan het juiste font?  | en dit             | en ik dit    | en dan ik dat    |
+  | Zijn mijn sections zo goed ingedeeld? | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Gebruik ik id's op de goede manier?            | ...                | ...          | ...              |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - "hoofd" sections classes geven
-  - "onder" sections aanroepen met bijv nth of type/child --> dus wel nth of child gebruiken
-  - section in section mag
-  - class namen mogen vaker op een pagina genoemt worden,  id namen niet
-  - dus bijv 2 afbeeldingen in 2 verschillende sections zijn hetzelfde gestijlt mag je ze dezelfde class naam geven
+  - "Hoofd" sections classes geven
+  - Onder" sections aanroepen met bijv nth of type/child --> dus wel nth of child gebruiken
+  - Section in section mag
+  - Class namen mogen vaker op een pagina genoemt worden,  id namen niet
+  - Dus bijv 2 afbeeldingen in 2 verschillende sections zijn hetzelfde gestijlt mag je ze dezelfde class naam geven
 
 </details>
 
