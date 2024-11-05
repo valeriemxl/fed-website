@@ -53,19 +53,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Gebruik https://www.a11yproject.com/checklist/
 
-  Lijst met je bevindingen die in de test naar voren kwamen: de website van Porsche voldoet niet volledig aan de A11Y Project Checklist
+  <!-- Lijst met je bevindingen die in de test naar voren kwamen: de website van Porsche voldoet niet volledig aan de A11Y Project Checklist
   - Er zijn enkele toegankelijkheidsmaatregelen aanwezig, zoals alternatieve teksten voor afbeeldingen en voldoende kleurcontrast
   - Hoewel sommige afbeeldingen alt-teksten hebben, is er geen uitgebreide beschrijving voor complexe visuele elementen zoals grafieken of diagrammen
   - Er ontbreken belangrijke elementen zoals correcte semantische HTML, toetsenbordnavigatie, en focusstaten voor interactieve elementen
   - Interactieve elementen zoals knoppen of links hebben dus geen duidelijke visuele focusstatus, waardoor toetsenbordnavigatie moeilijker wordt
   - De hiërarchie van koppen (zoals h1, h2, etc.) wordt niet altijd goed gebruikt, wat moeilijk is voor schermlezers en de navigatie belemmert
-  - Gebruikers kunnen niet altijd controle uitoefenen op animaties of automatische inhoud, wat afleidend kan zijn voor bepaalde gebruikersgroepen​
-
----
-
-### Toegankelijkheidsonderzoek Porsche Website
-
-#### Belangrijkste Bevindingen
+  - Gebruikers kunnen niet altijd controle uitoefenen op animaties of automatische inhoud, wat afleidend kan zijn voor bepaalde gebruikersgroepen​ -->
 
 - **Duidelijke Taal**:
   - De website gebruikt over het algemeen duidelijke taal, maar sommige technische termen en marketingtaal kunnen moeilijk te begrijpen zijn voor sommige gebruikers.
@@ -73,7 +67,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 - **Alt-Attributen**:
   - Niet alle afbeeldingen hebben alt-attributen. Dit moet worden toegevoegd om de toegankelijkheid te verbeteren.
 
-- **Tekstalternatieven voor Complexe Afbeeldingen**:
+- **Tekstalternatieven voor complexe afbeeldingen**:
   - Complexe afbeeldingen zoals grafieken en kaarten missen tekstalternatieven. Dit is essentieel voor gebruikers die schermlezers gebruiken.
 
 - **Zichtbare Focusstijl**:
@@ -103,17 +97,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 - **Responsive Design**:
   - De site is goed te gebruiken op zowel desktop als mobiele apparaten, zonder horizontaal scrollen.
 
-Dit wil ik gaan verbeteren
-- Voeg alt-attributen toe aan alle afbeeldingen.
-- Zorg voor tekstalternatieven voor complexe afbeeldingen.
-- Voeg een zichtbare skip link toe.
-- Zorg ervoor dat alle invoerelementen een bijbehorend `label`-element hebben.
-- Voeg ondertiteling toe aan video's en transcripties aan audio.
-- Verbeter het contrast waar nodig.
-
----
-
-Deze punten geven een goed overzicht van de huidige toegankelijkheid van de Porsche-pagina's en bieden concrete verbeterpunten. Heb je nog verdere vragen of hulp nodig bij specifieke verbeteringen?
+**Dit wil ik gaan proberen te verbeteren**
+- Alt-attributen toevoegen aan alle afbeeldingen
+- Tekstalternatieven voor complexe afbeeldingen
+- Zichtbare skip link toevoegen
+- Alle invoerelementen een bijbehorend `label`-element geven
+- Contrast verbeteren waar nodig
 
 </details>
 
@@ -295,10 +284,6 @@ Deze punten geven een goed overzicht van de huidige toegankelijkheid van de Pors
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
 
   0. Studentassistent
   1. https://flexboxfroggy.com/#nl
