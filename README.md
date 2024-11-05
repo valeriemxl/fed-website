@@ -144,8 +144,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   In plaats van dat ik achteraf nog heel veel heb moeten knippen en plakken en schuiven en bewerken omdat ik erg veel sections en classes en id's had.
 
   **Herkansing notitie**
-  
-  Aangezien ik mijn README niet heel erg up to date had gehouden tijdens het programmeren is het lastig om nog screenshots toe te voegen van hoe ver ik was op dit moment in het proces. Daarom heb ikmijn best gedaan om het in zoveel mogelijk detail uit te leggen.
+
+    Aangezien ik mijn README niet heel erg up to date had gehouden tijdens het programmeren is het lastig om nog screenshots toe te voegen van hoe ver ik was op dit moment in het proces. Daarom heb ik mijn best gedaan om het in zoveel mogelijk detail uit te leggen.
 
 
   ### Agenda voor meeting
