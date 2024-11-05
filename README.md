@@ -149,9 +149,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1 (ik)      | student 2          | student 3    | student 4        |
+  | student 1 (Valérie)      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | Dit hebben wij met ons groepje eigenlijk niet gedaan...  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
@@ -177,7 +176,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik ben bang dat ik misschien toch een te moeilijke website heb gekozen
+  Ik begon me steeds meer af te vragen of ik misschien een te ambitieuze website had gekozen. Er zitten veel dynamische elementen in die ik niet goed wist te vertalen naar code, en ik merkte dat dit een beetje overweldigend aanvoelde. De HTML en CSS die ik tot nu toe had opgebouwd, zagen er visueel wel mooi uit, maar ik voelde me vastlopen bij de complexere onderdelen. Daarnaast kwam ik erachter dat ik nog nauwelijks aan de tweede pagina was begonnen, wat me wel stress gaf, aangezien ik daar eigenlijk nu al een begin mee had moeten maken. Maar omdat de eerste pagina zo veel aandacht vroeg, had ik nog geen kans gehad om de tweede op te zetten. Ik weet dat ik daar snel een start mee moest maken, anders liep ik het risico tijd tekort te komen tegen het einde van het project. (Dit was vervolgens ook wat er gebeurde helaas).
+
+  *Herkansing notitie**
+
+  Ook hier weer helaas niet goed bij gehouden. Ook hier heb ik weer mijn best gedaan om zo gedetailleerd mogelijk mijn poces te beschrijven.
 
 
   ### Agenda voor meeting
