@@ -268,6 +268,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
+  
   *Na het eerste toetsmoment*
 
   Het opzetten van de HTML ging goed en verliep redelijk vlot. Ik voelde me steeds zekerder over hoe ik de structuur moest opbouwen en welke semantische elementen ik moest gebruiken, ook al had ik hier in het begin wat moeite mee.
@@ -285,11 +286,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
+
   Het surface plane onderdeel is niet gelukt. Ik heb de website niet per se meer toegankelijk gemaakt dan die al was.
   Ook veel dynamische onderdelen zijn niet gelukt om na te maken. Ik hoop dat dit bij de herkansing wel lukt.
   Ik weet eigenlijk nog steeds niet of ik het nou op de goede manier heb gedaan? Ik heb een beetje het gevoel dat ik zomaar wat heb gedaan en dat het deels per ongelijk gewoon gelukt is.
-  ---
+
   *Na het eerste toetsmoment*
+
   Ik denk dat het me nog steeds niet is gelukt om genoeg surface plane onderdelen toe te voegen. Ik ovnd het allemal meoilijker dan verwacht. Vooral omdat ik dus eigenlijk achteraf nog dingen moest toe gaan voegen terwijl ik mijn algemene code nagenoeg al af had. Ik ben te hard van stapel gelopen met het willen afmaken en verbeteren van mijn code waardoor ik niet meer naar de gehele opdracht heb gekeken. En hierdoor misschien andere onderdelen een beetje heb verwaardloosd of te weinig aandacht aan heb besteed.
 
   Toen ik een skip link ging toevoegen kwam ik erachter dat het toch niet erg handig was om de afbeeldingen die lijken bij de header te horen (waar we nog even over getwijfeld hebben maar toch hebben besloten dat dat handiger was om in de main te stoppen). Want nu als ik op mijn eerste pagina skip link wil gebruiken schuift mijn pagina natuurlijk maar een klein beetje naar beneden. Maar goed, ik weet nu wel voor toekomstige prijecten hoe het moet en zal het nu altijd kunnen toepassen, daar gaat het naturlijk om.
