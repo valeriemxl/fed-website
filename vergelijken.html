@@ -15,6 +15,9 @@
 <body>
 
 	<header>
+
+		<a href="#main" class="skip-link">Direct naar hoofdinhoud</a>
+
 		<nav>
 			<button aria-label="Menu" id="menu-btn-vergelijken">
 				<img src="images/hamburgermenu.svg" alt="Hamburger Menu">
@@ -22,25 +25,28 @@
 
 			<div id="menu-overlay">
 				<ul id="nav-links">
-					<li><a href="index.html">Porsche Taycan</a></li>
-					<li><a href="vergelijken.html">Advies & aankoop</a></li>
-					<li><a href="vergelijken.html">Shop</a></li>
-					<li><a href="vergelijken.html">Services</a></li>
-					<li><a href="vergelijken.html">Beleven</a></li>
-					<li><a href="vergelijken.html">Dealer</a></li>
-					<li><a href="vergelijken.html">My Porsche</a></li>
+					<li><a href="index.html" aria-label="Ga naar de Porsche Taycan pagina">Porsche Taycan</a></li>
+					<li><a href="vergelijken.html" aria-label="Bekijk advies en aankoop opties">Advies & aankoop</a>
+					</li>
+					<li><a href="vergelijken.html" aria-label="Bekijk de online shop">Shop</a></li>
+					<li><a href="vergelijken.html" aria-label="Bekijk beschikbare services">Services</a></li>
+					<li><a href="vergelijken.html" aria-label="Ervaar de Porsche belevenis">Beleven</a></li>
+					<li><a href="vergelijken.html" aria-label="Zoek een Porsche dealer">Dealer</a></li>
+					<li><a href="vergelijken.html" aria-label="Ga naar je My Porsche account">My Porsche</a></li>
+
 				</ul>
 			</div>
 		</nav>
 
-		<img class="porsche-logo" src="images/porsche-logo.webp" alt="Porsche logo">
-		<img class="profile-icon-vergelijken" src="images/profile-icon.svg" alt="Profiel icoon">
+		<img class="porsche-logo" src="images/porsche-logo.webp" alt="Porsche logo" aria-label="Porsche logo">
+		<img class="profile-icon-vergelijken" src="images/profile-icon.svg" alt="Profiel icoon" aria-label="Profiel">
+
 	</header>
 
-	<main>
+	<main id="main">
 
 		<div class="light-dark-mode">
-			<button onclick="lightDarkMode()">Light / Dark Mode</button>
+			<button aria-label="Wissel tussen licht- en donker modus" onclick="lightDarkMode()">Dark Mode</button>
 		</div>
 
 		<section class="titel">
@@ -53,10 +59,12 @@
 			</section>
 
 			<section>
-				<button type="button">Filter models</button>
-				<button type="button">Taycan</button>
-				<button type="button">Sedan</button>
+				<button type="button" aria-label="Filter Porsche-modellen op basis van voorkeuren">Filter
+					models</button>
+				<button type="button" aria-label="Selecteer de Porsche Taycan model">Taycan</button>
+				<button type="button" aria-label="Selecteer de Sedan variant van de Porsche modellen">Sedan</button>
 			</section>
+
 		</section>
 
 		<section class="modellen">
@@ -66,41 +74,52 @@
 
 			<section>
 				<div class="card">
-					<img src="images/vergelijk/taycan.webp" alt="Porsche Taycan">
+					<img src="images/vergelijk/taycan.webp" alt="Porsche Taycan, een elektrische sportwagen van Porsche"
+						aria-label="Porsche Taycan model, vanaf € 107.000,00">
 					<h3>Taycan</h3>
 					<p>Vanaf € 107.000,00 (consumentenprijs)</p>
 				</div>
 
 				<div class="card">
-					<img src="images/vergelijk/taycan-4s.webp" alt="Porsche Taycan 4S">
+					<img src="images/vergelijk/taycan-4s.webp"
+						alt="Porsche Taycan 4S, een geavanceerde versie van de Taycan"
+						aria-label="Porsche Taycan 4S model, vanaf € 126.800,00">
 					<h3>Taycan 4S</h3>
 					<p>Vanaf € 126.800,00 (consumentenprijs)</p>
 				</div>
 
 				<div class="card">
-					<img src="images/vergelijk/taycan-turbo.webp" alt="Porsche Taycan Turbo">
+					<img src="images/vergelijk/taycan-turbo.webp"
+						alt="Porsche Taycan Turbo, de krachtige sportversie van de Taycan"
+						aria-label="Porsche Taycan Turbo model, vanaf € 183.000,00">
 					<h3>Taycan Turbo</h3>
 					<p>Vanaf € 183.000,00 (consumentenprijs)</p>
 				</div>
 
 				<div class="card">
-					<img src="images/vergelijk/taycan-turbo-s.webp" alt="Porsche Taycan Turbo S">
+					<img src="images/vergelijk/taycan-turbo-s.webp"
+						alt="Porsche Taycan Turbo S, de high-performance versie van de Taycan"
+						aria-label="Porsche Taycan Turbo S model, vanaf € 218.900,00">
 					<h3>Taycan Turbo S</h3>
 					<p>Vanaf € 218.900,00 (consumentenprijs)</p>
 				</div>
 
 				<div class="card">
-					<img src="images/vergelijk/taycan-turbo-gt.webp" alt="Porsche Taycan Turbo GT">
+					<img src="images/vergelijk/taycan-turbo-gt.webp"
+						alt="Porsche Taycan Turbo GT, de snelste Taycan met uitzonderlijke prestaties"
+						aria-label="Porsche Taycan Turbo GT model, vanaf € 249.900,00">
 					<h3>Taycan Turbo GT</h3>
 					<p>Vanaf € 249.900,00 (consumentenprijs)</p>
 				</div>
 
 				<div class="card">
 					<img src="images/vergelijk/taycan-turbo-gt-weissach.webp"
-						alt="Porsche Taycan Turbo GT met Weissach Pakket">
+						alt="Porsche Taycan Turbo GT met Weissach Pakket, de exclusieve versie van de Turbo GT"
+						aria-label="Porsche Taycan Turbo GT met Weissach Pakket model, vanaf € 249.900,00">
 					<h3>Taycan Turbo GT met Weissach pakket</h3>
 					<p>Vanaf € 249.900,00 (consumentenprijs)</p>
 				</div>
+
 			</section>
 		</section>
 
@@ -116,37 +135,40 @@
 			<h2>Meer over</h2>
 
 			<section>
-				<a href="vergelijken.html">Porsche 718 | Overzicht</a>
-				<a href="vergelijken.html">Porsche 911 | Overzicht</a>
-				<a href="vergelijken.html">Taycan | Overzicht</a>
-				<a href="vergelijken.html">Panamera | Overzicht</a>
-				<a href="vergelijken.html">Macan | Overzicht</a>
-				<a href="vergelijken.html">Cayenne | Overzicht</a>
-				<a href="vergelijken.html">Veelgestelde vragen</a>
+				<a href="vergelijken.html" aria-label="Porsche 718 overzicht">Porsche 718 | Overzicht</a>
+				<a href="vergelijken.html" aria-label="Porsche 911 overzicht">Porsche 911 | Overzicht</a>
+				<a href="vergelijken.html" aria-label="Taycan overzicht">Taycan | Overzicht</a>
+				<a href="vergelijken.html" aria-label="Panamera overzicht">Panamera | Overzicht</a>
+				<a href="vergelijken.html" aria-label="Macan overzicht">Macan | Overzicht</a>
+				<a href="vergelijken.html" aria-label="Cayenne overzicht">Cayenne | Overzicht</a>
+				<a href="vergelijken.html" aria-label="Veelgestelde vragen overzicht">Veelgestelde vragen</a>
+
 			</section>
 		</section>
 
 		<section class="overige-links">
-			<button type="button">Koop advies</button>
-			<button type="button">Online Services</button>
-			<button type="button">Achter de schermen</button>
-			<button type="button">Over Porsche</button>
-
+			<button type="button" aria-label="Koop advies">Koop advies</button>
+			<button type="button" aria-label="Online Services">Online Services</button>
+			<button type="button" aria-label="Achter de schermen">Achter de schermen</button>
+			<button type="button" aria-label="Over Porsche">Over Porsche</button>
+		
 			<h2>Volg Porsche</h2>
-			<a href="vergelijken.html"><img src="images/facebook.svg" alt="link naar Facebook"></a>
-			<a href="vergelijken.html"><img src="images/insta.svg" alt="link naar Instagram"></a>
-			<a href="vergelijken.html"><img src="images/pinterest.svg" alt="link naar Pinterest"></a>
-			<a href="vergelijken.html"><img src="images/youtube.svg" alt="link naar YouTube"></a>
-			<a href="vergelijken.html"><img src="images/x.svg" alt="link naar X"></a>
-			<a href="vergelijken.html"><img src="images/linkedin.svg" alt="link naar LinkedIn"></a>
+			<a href="vergelijken.html" aria-label="Volg Porsche op Facebook"><img src="images/facebook.svg" alt="Facebook logo"></a>
+			<a href="vergelijken.html" aria-label="Volg Porsche op Instagram"><img src="images/insta.svg" alt="Instagram logo"></a>
+			<a href="vergelijken.html" aria-label="Volg Porsche op Pinterest"><img src="images/pinterest.svg" alt="Pinterest logo"></a>
+			<a href="vergelijken.html" aria-label="Volg Porsche op YouTube"><img src="images/youtube.svg" alt="YouTube logo"></a>
+			<a href="vergelijken.html" aria-label="Volg Porsche op X"><img src="images/x.svg" alt="X logo"></a>
+			<a href="vergelijken.html" aria-label="Volg Porsche op LinkedIn"><img src="images/linkedin.svg" alt="LinkedIn logo"></a>
 		</section>
+		
 
 		<footer class="footer-vergelijken">
 			<section>
 				<h2>Kies een ander land/regio:</h2>
 
-				<button type="button">Selecteer een land/regio</button>
-				<button type="button" disabled>Selecteer een land/regio</button>
+				<button type="button" aria-label="Selecteer een land of regio">Selecteer een land/regio</button>
+				<button type="button" disabled aria-label="Deze knop is nog niet beschikbaar voor selectie">Selecteer een land/regio</button>
+				
 			</section>
 
 			<section>

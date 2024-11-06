@@ -24,6 +24,7 @@
 	--color-text-small: #6B6D70;
 	--background-color: #FBFCFF;
 	--background-modellen: #EFF0F1;
+	--background-elektrisch: #EEEFF2;
 	--margin-body: 0 8% 0 8%;
 	--magin-body-vergelijken: 0 6% 0 6%;
 	--font-size-h1: 7.5vw;
@@ -48,6 +49,7 @@ LIGHT / DARK MODE
 	--color-text-small: #d3d4d6;
 	--background-color: #6B6D70;
 	--background-modellen: #1c1c1d;
+	--background-elektrisch: #1c1c1d;
 }
 
 .light-dark-mode {
@@ -101,6 +103,29 @@ FONTS
 
 
 
+/*
+SKIP LINK
+  30. https://www.w3schools.com/accessibility/accessibility_skip_links.php
+  31. https://css-tricks.com/how-to-create-a-skip-to-content-link/
+*/
+
+.skip-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: var(--color-text-taycan);
+	color: var(--color-text-white);
+	font-family: PorscheRegular;
+	padding: 5px 10px;
+	z-index: 4;
+	text-decoration: none;
+	transform: translateY(-100%);
+	transition: transform 0.3s;
+}
+
+.skip-link:focus {
+	transform: translateY(0);
+}
 
 /* 
 HEADER
@@ -308,7 +333,7 @@ Uitvoeringen Weissach Model
 }
 
 .uitvoeringen-weissach-model section:nth-of-type(2) p:first-of-type {
-	background-color: var(--background-color);
+	background-color: var(--background-elektrisch);
 	border-radius: 3px;
 	padding: 1px 6px;
 }
@@ -637,7 +662,7 @@ Prestaties
 
 .prestaties section:nth-of-type(3) button {
 	background: none;
-	color: var(--color-text-taycan);
+	color: white;
 	font-size: var(--font-size-algemeen);
 	border: none;
 	text-decoration: underline;

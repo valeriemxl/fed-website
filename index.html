@@ -14,6 +14,9 @@
 
 <body>
 	<header>
+
+		<a href="#main" class="skip-link">Direct naar hoofdinhoud</a>
+
 		<nav>
 			<button aria-label="Menu" id="menu-btn">
 				<img src="images/hamburgermenu.svg" alt="Hamburger Menu">
@@ -21,36 +24,37 @@
 
 			<div id="menu-overlay">
 				<ul id="nav-links">
-					<li><a href="vergelijken.html">Vergelijken</a></li>
-					<li><a href="index.html">Advies & aankoop</a></li>
-					<li><a href="index.html">Shop</a></li>
-					<li><a href="index.html">Services</a></li>
-					<li><a href="index.html">Beleven</a></li>
-					<li><a href="index.html">Dealer</a></li>
-					<li><a href="index.html">My Porsche</a></li>
+					<li><a href="vergelijken.html" aria-label="Vergelijk verschillende Porsche-modellen">Vergelijken</a></li>
+					<li><a href="index.html" aria-label="Bekijk advies en aankoop opties voor Porsche">Advies & aankoop</a></li>
+					<li><a href="index.html" aria-label="Bekijk de Porsche online shop">Shop</a></li>
+					<li><a href="index.html" aria-label="Bekijk beschikbare Porsche services">Services</a></li>
+					<li><a href="index.html" aria-label="Beleef de Porsche ervaring">Beleven</a></li>
+					<li><a href="index.html" aria-label="Vind een Porsche dealer bij jou in de buurt">Dealer</a></li>
+					<li><a href="index.html" aria-label="Ga naar je My Porsche account">My Porsche</a></li>
 				</ul>
 			</div>
 		</nav>
 
-		<img class="porsche-logo" src="images/porsche-logo.webp" alt="Porsche logo">
-		<img class="profile-icon" src="images/profile-icon.svg" alt="Profiel icoon">
+		<img class="porsche-logo" src="images/porsche-logo.webp" alt="Porsche logo" aria-label="Porsche logo">
+		<img class="profile-icon" src="images/profile-icon.svg" alt="Profiel icoon" aria-label="Profiel">
 	</header>
 
 
 
-	<main>
+	<main id="main">
 
 		<section class="header-imgs">
-			<img src="images/taycan-header.webp" alt="header image">
+			<img src="images/taycan-header.webp"
+				alt="Header afbeelding van de paarse Taycan. Afbeelding is iets donkerder gemaakt.">
 
-			<img src="images/taycan-logo.svg" alt="Taycan in fancy font">
+			<img src="images/taycan-logo.svg" alt="Het woord Taycan in Taycan font">
 
 			<img src="images/taycan-sideview.avif"
 				alt="Porsche Taycan Turbo GT met Weissach pakket in purplesky metallic in zijaanzicht">
 		</section>
 
 		<div class="light-dark-mode">
-			<button onclick="lightDarkMode()">Light / Dark Mode</button>
+			<button aria-label="Wissel tussen licht- en donker modus" onclick="lightDarkMode()">Dark Mode</button>
 		</div>
 
 		<section class="uitvoeringen-weissach-model">
@@ -90,7 +94,7 @@
 			<h2>305 km/h</h2>
 			<p>Topsnelheid</p>
 
-			<a href="index.html">Alle technische details</a>
+			<a href="index.html" aria-label="Bekijk alle technische details">Alle technische details</a>
 
 			<img src="images/taycan-frontview.avif"
 				alt="Vooraanzicht van de Porsche Taycan Turbo GT met Weissach pakket in purplesky metallic">
@@ -100,7 +104,7 @@
 
 
 		<section class="overfeel">
-			<img src="images/taycan-logo.svg" alt="Taycan in fancy font">
+			<img src="images/taycan-logo.svg" alt="Het woord Taycan in Taycan font">
 			<img src="images/taycan-overfeel1.avif" alt="*nog iets verzinnen">
 
 			<section>
@@ -264,45 +268,55 @@
 
 		<footer class="footer-taycan">
 			<section>
-				<h2>Huidge regio / taal</h2>
-				<!-- <img src="/images/taal-icoon.png" alt="Nederlandsevlag icoon">
-				<p>Nederland / Nederlands</p>
-				<a href="index.html">Verander</a> -->
-				<img src="images/taal-icoon.png" alt="Nederlandsevlag icoon">Nederland / Nederlands<a
-					href="index.html">Verander</a>
+				<h2>Huidige regio / taal</h2>
+				<!-- <img src="/images/taal-icoon.png" alt="Nederlandse vlag icoon"> -->
+				<img src="images/taal-icoon.png" alt="Nederlandse vlag icoon"
+					aria-label="Huidige taal en regio: Nederlands / Nederland">Nederland / Nederlands
+				<a href="index.html" aria-label="Verander de taal of regio">Verander</a>
 			</section>
 
 			<section class="nieuws-contact">
 				<h2>Nieuwsbrief</h2>
 				<p>Laatste nieuws direct in uw inbox</p>
-				<a href="index.html">Aanmelden</a>
+				<a href="index.html" aria-label="Meld je aan voor de nieuwsbrief">Aanmelden</a>
 			</section>
 
 			<section class="nieuws-contact">
 				<h2>Neem contact op met</h2>
 				<p>Heeft u nog vragen?</p>
-				<a href="index.html">Contactformulier</a>
+				<a href="index.html" aria-label="Ga naar het contactformulier">Contactformulier</a>
 			</section>
+
 
 			<section>
 				<h2>Sociale media</h2>
 				<p>Neem contact met ons op via de sociale media.</p>
-				<a href="index.html"><img src="images/facebook.svg" alt="link naar Facebook"></a>
-				<a href="index.html"><img src="images/insta.svg" alt="link naar Instagram"></a>
-				<a href="index.html"><img src="images/pinterest.svg" alt="link naar Pinterest"></a>
-				<a href="index.html"><img src="images/youtube.svg" alt="link naar YouTube"></a>
-				<a href="index.html"><img src="images/x.svg" alt="link naar X"></a>
-				<a href="index.html"><img src="images/linkedin.svg" alt="link naar LinkedIn"></a>
+				<a href="index.html" aria-label="Facebook">
+					<img src="images/facebook.svg" alt="link naar Facebook">
+				</a>
+				<a href="index.html" aria-label="Instagram">
+					<img src="images/insta.svg" alt="link naar Instagram">
+				</a>
+				<a href="index.html" aria-label="Pinterest">
+					<img src="images/pinterest.svg" alt="link naar Pinterest">
+				</a>
+				<a href="index.html" aria-label="YouTube">
+					<img src="images/youtube.svg" alt="link naar YouTube">
+				</a>
+				<a href="index.html" aria-label="X">
+					<img src="images/x.svg" alt="link naar X">
+				</a>
+
 			</section>
 
 			<section>
 				<h2>Over Porsche</h2>
-				<a href="index.html">Overzicht</a>
-				<a href="index.html">Porsche Centre Nederland</a>
-				<a href="index.html">Porsche Centra</a>
-				<a href="index.html">Werken bij Porsche</a>
-				<a href="index.html">Contact en informatie</a>
-				<a href="index.html">Pers</a>
+				<a href="index.html" aria-label="Overzicht van Porsche">Overzicht</a>
+				<a href="index.html" aria-label="Porsche Centre Nederland">Porsche Centre Nederland</a>
+				<a href="index.html" aria-label="Porsche Centra">Porsche Centra</a>
+				<a href="index.html" aria-label="Werken bij Porsche">Werken bij Porsche</a>
+				<a href="index.html" aria-label="Contact en informatie over Porsche">Contact en informatie</a>
+				<a href="index.html" aria-label="Persinformatie van Porsche">Pers</a>
 			</section>
 
 			<section>

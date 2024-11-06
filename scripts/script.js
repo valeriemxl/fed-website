@@ -27,7 +27,20 @@ if (menuOverlay) {
 }
 
 
+// function lightDarkMode() {
+//   let element = document.body;
+//   element.classList.toggle("dark-mode");
+// }
+
 function lightDarkMode() {
   let element = document.body;
   element.classList.toggle("dark-mode");
+
+  // Zoek de knop en verander de tekst op basis van de huidige modus
+  let button = document.querySelector(".light-dark-mode button");
+  if (element.classList.contains("dark-mode")) {
+    button.textContent = "Light Mode";
+  } else {
+    button.textContent = "Dark Mode";
+  }
 }

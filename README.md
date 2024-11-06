@@ -53,14 +53,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Gebruik https://www.a11yproject.com/checklist/
 
-  <!-- Lijst met je bevindingen die in de test naar voren kwamen: de website van Porsche voldoet niet volledig aan de A11Y Project Checklist
-  - Er zijn enkele toegankelijkheidsmaatregelen aanwezig, zoals alternatieve teksten voor afbeeldingen en voldoende kleurcontrast
-  - Hoewel sommige afbeeldingen alt-teksten hebben, is er geen uitgebreide beschrijving voor complexe visuele elementen zoals grafieken of diagrammen
-  - Er ontbreken belangrijke elementen zoals correcte semantische HTML, toetsenbordnavigatie, en focusstaten voor interactieve elementen
-  - Interactieve elementen zoals knoppen of links hebben dus geen duidelijke visuele focusstatus, waardoor toetsenbordnavigatie moeilijker wordt
-  - De hiërarchie van koppen (zoals h1, h2, etc.) wordt niet altijd goed gebruikt, wat moeilijk is voor schermlezers en de navigatie belemmert
-  - Gebruikers kunnen niet altijd controle uitoefenen op animaties of automatische inhoud, wat afleidend kan zijn voor bepaalde gebruikersgroepen​ -->
-
 - **Duidelijke Taal**:
   De website gebruikt over het algemeen duidelijke taal, maar sommige technische termen en marketingtaal kunnen moeilijk te begrijpen zijn voor sommige gebruikers.
 
@@ -276,7 +268,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  *Na het eerste toetsmoment*
+
+  Het opzetten van de HTML ging goed en verliep redelijk vlot. Ik voelde me steeds zekerder over hoe ik de structuur moest opbouwen en welke semantische elementen ik moest gebruiken, ook al had ik hier in het begin wat moeite mee.
+
+  Een van de dingen die ik echt heb geleerd, is hoe ik light / dark mode kon implementeren. Het idee om de gebruikersinterface aan te passen aan de voorkeur van de gebruiker was interessant en ik vond het leuk om te experimenteren met de verschillende stijlen voor beide modussen. Dit ging uiteindelijk best goed, ondanks dat het wat extra tijd kostte om de juiste schakeling en styling te realiseren.
+
+  Ook heb ik geleerd hoe ik custom properties effectief kan gebruiken en bijhouden. Dit vond ik een beetje lastig, vooral toen ik light / dark mode wilde toevoegen, omdat de variabelen goed gecoördineerd moesten worden om de kleuren consistent te houden voor beide modi. Het was even puzzelen, maar uiteindelijk werkte het zoals ik had gehoopt.
+
+  Verder heb ik de toepassing van CSS properties zoals z-index en transform leren begrijpen en gebruiken. Het toepassen van z-index voor lagen en transform voor het positioneren van elementen gaf me meer controle over de layout, wat ik voorheen niet helemaal goed begreep.
+
+  Tot slot heb ik geleerd hoe belangrijk ARIA-labels zijn voor toegankelijkheid, en ik heb ze toegepast waar nodig. Hoewel ik het niet volledig heb doorgevoerd, weet ik nu wel beter hoe ik dit moet gebruiken om de website toegankelijker te maken voor gebruikers met een beperking.
+
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
@@ -285,6 +288,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Het surface plane onderdeel is niet gelukt. Ik heb de website niet per se meer toegankelijk gemaakt dan die al was.
   Ook veel dynamische onderdelen zijn niet gelukt om na te maken. Ik hoop dat dit bij de herkansing wel lukt.
   Ik weet eigenlijk nog steeds niet of ik het nou op de goede manier heb gedaan? Ik heb een beetje het gevoel dat ik zomaar wat heb gedaan en dat het deels per ongelijk gewoon gelukt is.
+  ---
+  *Na het eerste toetsmoment*
+  Ik denk dat het me nog steeds niet is gelukt om genoeg surface plane onderdelen toe te voegen. Ik ovnd het allemal meoilijker dan verwacht. Vooral omdat ik dus eigenlijk achteraf nog dingen moest toe gaan voegen terwijl ik mijn algemene code nagenoeg al af had. Ik ben te hard van stapel gelopen met het willen afmaken en verbeteren van mijn code waardoor ik niet meer naar de gehele opdracht heb gekeken. En hierdoor misschien andere onderdelen een beetje heb verwaardloosd of te weinig aandacht aan heb besteed.
+
+  Toen ik een skip link ging toevoegen kwam ik erachter dat het toch niet erg handig was om de afbeeldingen die lijken bij de header te horen (waar we nog even over getwijfeld hebben maar toch hebben besloten dat dat handiger was om in de main te stoppen). Want nu als ik op mijn eerste pagina skip link wil gebruiken schuift mijn pagina natuurlijk maar een klein beetje naar beneden. Maar goed, ik weet nu wel voor toekomstige prijecten hoe het moet en zal het nu altijd kunnen toepassen, daar gaat het naturlijk om.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 
@@ -329,6 +337,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   27. ChatGPT prompt: wat gebeurt er als je met classList.toggle een class toevoegt of verwijdert om een menu te openen en te sluiten? Geef voorbeelden en leg uit.
   28. https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark  
   29. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+  30. https://www.w3schools.com/accessibility/accessibility_skip_links.php
+  31. https://css-tricks.com/how-to-create-a-skip-to-content-link/
+
 
 
 </details>
