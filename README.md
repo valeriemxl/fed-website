@@ -229,12 +229,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
-
-
-
-
   ### Agenda voor meeting
 
   | student 1      | student 2          | student 3    | student 4        |
