@@ -180,7 +180,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   **Herkansing notitie**
 
-  Ook hier weer helaas niet goed bij gehouden. Ook hier heb ik weer mijn best gedaan om zo gedetailleerd mogelijk mijn poces te beschrijven.
+  Ook hier weer helaas niet goed bij gehouden. En ook hier heb ik weer mijn best gedaan om zo gedetailleerd mogelijk mijn poces te beschrijven.
 
 
   ### Agenda voor meeting
@@ -227,9 +227,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Voor beide pagina's in iedergeval complete HTML helemaal af.
-  CSS voor de eerste pagina ook bijna helemaal af. 
-  Voor de tweede pagina qua CSS alleen nog de eerste opzet
+  Deze week is de HTML voor beide pagina's eindelijk helemaal af. Ik heb ervoor gezorgd dat de structuur voor elke pagina klopt en alle secties, artikelen en elementen nu netjes zijn opgenomen. Dat was een hele stap vooruit en gaf me wel wat meer overzicht. De CSS voor de eerste pagina is ook bijna compleet, met alle basisstijlen en opmaak die ik wilde bereiken. Voor de tweede pagina heb ik wel al een eerste opzet in CSS, maar er moet nog behoorlijk wat aan gebeuren om het te krijgen zoals ik wil. 
+  Ik merk dat het soms lastig is om alles bij elkaar te laten komen. Het voelt alsof ik nog steeds veel moet aanpassen en verbeteren, en ik heb vaak het idee dat ik door de bomen het bos niet meer zie. Vooral de details in de layout en de meer dynamische stukken kosten veel tijd, en ik begin me af te vragen of ik dit alles binnen de deadline kan afronden.
+  Het helpt wel dat ik in ieder geval de HTML helemaal af heb en de basisstijl voor de eerste pagina al goed staat. Dat geeft me een fundament om op verder te bouwen, maar het blijft lastig om de rust te bewaren en gestructureerd verder te werken zonder overweldigd te raken.
+  
+  **Herkansing notitie**
+  
+  Ook deze week heb ik mijn voortgang niet helemaal bijgehouden, dus ik schrijf dit vanuit mijn herinnering zo gedetailleerd mogelijk op.
+
+
+
+
+
+
+
 
 
   ### Agenda voor meeting
