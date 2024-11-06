@@ -268,7 +268,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  
+
   *Na het eerste toetsmoment*
 
   Het opzetten van de HTML ging goed en verliep redelijk vlot. Ik voelde me steeds zekerder over hoe ik de structuur moest opbouwen en welke semantische elementen ik moest gebruiken, ook al had ik hier in het begin wat moeite mee.
@@ -279,7 +279,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Verder heb ik de toepassing van CSS properties zoals z-index en transform leren begrijpen en gebruiken. Het toepassen van z-index voor lagen en transform voor het positioneren van elementen gaf me meer controle over de layout, wat ik voorheen niet helemaal goed begreep.
 
-  Tot slot heb ik geleerd hoe belangrijk ARIA-labels zijn voor toegankelijkheid, en ik heb ze toegepast waar nodig. Hoewel ik het niet volledig heb doorgevoerd, weet ik nu wel beter hoe ik dit moet gebruiken om de website toegankelijker te maken voor gebruikers met een beperking.
+  Tot slot heb ik geleerd hoe belangrijk ARIA-labels en Alt teksten zijn voor toegankelijkheid, en ik heb ze toegepast waar nodig. 
 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
