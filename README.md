@@ -258,7 +258,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eigen-pagina-detail.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eigen-pagina-vergelijk.png" width="375px" alt="uitomst opdracht 2">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -271,12 +272,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Ook heb ik geleerd hoe ik custom properties effectief kan gebruiken en bijhouden. Dit vond ik een beetje lastig, vooral toen ik light / dark mode wilde toevoegen, omdat de variabelen goed gecoördineerd moesten worden om de kleuren consistent te houden voor beide modi. Het was even puzzelen, maar uiteindelijk werkte het zoals ik had gehoopt.
 
-  Verder heb ik de toepassing van CSS properties zoals z-index en transform leren begrijpen en gebruiken. Het toepassen van z-index voor lagen en transform voor het positioneren van elementen gaf me meer controle over de layout, wat ik voorheen niet helemaal goed begreep.
+  Verder heb ik de toepassing van CSS properties zoals z-index en transform leren begrijpen en gebruiken. Het toepassen van z-index voor lagen en transform voor het positioneren van elementen gaf me meer controle over de layout, wat ik voorheen niet helemaal goed begreep. Ook ben ik erg trots dat het me is gelukt om scrollbare containers te maken.
 
   Tot slot heb ik geleerd hoe belangrijk ARIA-labels en Alt teksten zijn voor toegankelijkheid, en ik heb ze toegepast waar nodig. 
 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/screenshot-top.png" width="375px" alt="een van mijn scrollbare containers">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -291,7 +292,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Toen ik een skip link ging toevoegen kwam ik erachter dat het toch niet erg handig was om de afbeeldingen die lijken bij de header te horen (waar we nog even over getwijfeld hebben maar toch hebben besloten dat dat handiger was om in de main te stoppen). Want nu als ik op mijn eerste pagina skip link wil gebruiken schuift mijn pagina natuurlijk maar een klein beetje naar beneden. Maar goed, ik weet nu wel voor toekomstige prijecten hoe het moet en zal het nu altijd kunnen toepassen, daar gaat het naturlijk om.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/skip-link-voorbeeld.png" width="375px" alt="dit is waar je eigenlijk naar toe gaat/ziet als je dus op dei skip link hebt geklikt">
 
 </details>
 
