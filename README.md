@@ -207,6 +207,57 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
   - Nog niet kunnen doen (01-10)
 
+  ---
+
+  *Toegevoegt 6 november na 18:00*
+
+- **Duidelijke Taal**:
+  - **Bevinding**: Mijn website gebruikt duidelijke taal en vermijdt ingewikkelde termen.
+  - **Verbetering**: Geen verbetering nodig
+
+- **Alt-Attributen**:
+  - **Bevinding**: Alle afbeeldingen hebben nu alt-attributen.
+  - **Verbetering**: Ik heb alt-attributen toegevoegd aan alle afbeeldingen om de toegankelijkheid voor schermlezers te verbeteren. Het kan nuttig zijn om regelmatig te controleren of de alt-teksten nog steeds relevant zijn.
+
+- **Tekstalternatieven voor Complexe Afbeeldingen**:
+  - **Bevinding**: Mijn pagina's hebben geen complexe afbeeldingen.
+
+- **Zichtbare Focusstijl**:
+  - **Bevinding**: Interactieve elementen hebben een zichtbare focusstijl.
+  - **Verbetering**: De focusstijl is zichtbaar, maar ik kan de stijl nog verder verbeteren om deze duidelijker te maken voor gebruikers.
+
+- **Toetsenbordfocusvolgorde**:
+  - **Bevinding**: De focusvolgorde komt overeen met de visuele lay-out.
+  - **Verbetering**: De focusvolgorde is goed, maar ik kan deze nog verder optimaliseren door extra aandacht te besteden aan de volgorde van interactieve elementen.
+
+- **Gebruik van Heading-Elementen**:
+  - **Bevinding**: Heading-elementen worden correct gebruikt om inhoud te introduceren en de volgorde is logisch en consistent.
+  - **Verbetering**: Hoewel de heading-structuur goed is, kan ik deze nog verder verfijnen om de hiërarchie van de inhoud duidelijker te maken.
+
+- **Gebruik van Lijst-Elementen**:
+  - **Bevinding**: Lijst-elementen (`ol`, `ul`, `dl`) worden correct gebruikt voor lijstinhoud.
+  - **Verbetering**: De lijsten zijn goed gestructureerd, maar ik kan de opmaak en stijl van de lijsten nog verder verbeteren voor een betere leesbaarheid.
+
+- **Ondertiteling en Transcripties**:
+  - **Bevinding**: Ik heb geen video's op mijn pagina's
+
+- **Skip Link**:
+  - **Bevinding**: Er is een zichtbare skip link aanwezig.
+  - **Verbetering**: Ik heb een skip link toegevoegd om gebruikers snel naar de hoofdinhoud te laten springen. Het kan nuttig zijn om de zichtbaarheid en functionaliteit van de skip link regelmatig te testen.
+
+- **Gebruik van `label`-Elementen**:
+  - **Bevinding**: Alle invoerelementen hebben nu een bijbehorend `label`-element.
+  - **Verbetering**: Ik heb `label`-elementen toegevoegd aan alle invoerelementen om de toegankelijkheid te verbeteren. Het is belangrijk om ervoor te zorgen dat nieuwe invoerelementen ook altijd een label hebben.
+
+- **Contrast**:
+  - **Bevinding**: Het contrast voor tekst, iconen en randen van invoerelementen is goed.
+  - **Verbetering**: Het contrast is over het algemeen goed, maar ik kan het nog verder verbeteren door regelmatig te controleren of het contrast voldoet aan de nieuwste richtlijnen.
+
+- **Responsive Design**:
+  - **Bevinding**: De site is voornamelijk geoptimaliseerd voor mobiel gebruik en is niet volledig responsive voor desktop.
+  - **Verbetering**: Ik heb de site enigszins responsive gemaakt voor mobiel, maar er is nog werk nodig om de site volledig responsive te maken voor desktopgebruik.
+
+
 </details>
 
 
